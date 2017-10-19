@@ -25,8 +25,40 @@
           center: {lat: 46.48991, lng: 11.7614},
           mapTypeId: 'terrain'
         });
+
+        for(therm of window.flightBoxData.thermails) {
+          console.log(therm);
+          circle = new google.maps.Circle({
+            map: map,
+            center: {lat: therm.lat, lng:therm.lon},
+            radius: therm.radius,
+            fillColor: '#f00',
+            strokeWeight: 1
+          });
+        };
+        console.log("Rendering calculated data");
+        for(therm of window.calculatedData.thermails) {
+          console.log(therm);
+          circle = new google.maps.Circle({
+            map: map,
+            center: {lat: therm.lat, lng:therm.lon},
+            radius: therm.radius,
+            fillColor: '#a00',
+            strokeWeight: 1
+          });
+        };
+      }
+      function flightBoxDataFetchedCallback(data) {
+        console.log("Thermails loaded: ", data.thermails.length);
+        window.flightBoxData = data;
+      }
+      function calculatedDataFetchedCallback(data) {
+        console.log("Thermails loaded: ", data.thermails.length);
+        window.calculatedData = data;
       }
     </script>
+    <script src="data/from_fbox.js"></script>
+    <script src="data/from_igor.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM-8hga1cAOBlE2a9ssL95G3SCMXh5B8o&callback=initMap">
     </script>
