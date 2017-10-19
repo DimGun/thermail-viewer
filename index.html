@@ -32,7 +32,8 @@
             map: map,
             center: {lat: therm.lat, lng:therm.lng},
             radius: therm.radius,
-            fillColor: '#f00',
+            fillColor: 'red',
+            fillOpacity: 0.5,
             strokeWeight: 1
           });
         };
@@ -43,8 +44,9 @@
             map: map,
             center: {lat: therm.lat, lng:therm.lng},
             radius: therm.radius,
-            fillColor: '#a00',
-            strokeWeight: 1
+            fillColor: 'green',
+            fillOpacity: therm.r2, //Determination coeff
+            strokeWeight: 0.5
           });
         };
       }
