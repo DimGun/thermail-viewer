@@ -8,11 +8,11 @@ jq '.jsinfo.thermails
           [foreach .coords[] as $coord (
             []; 
             if .|length < 2 then . + [$coord] else [$coord] end; 
-            if .|length == 2 then {lat: .[0], lon: .[1]} else empty end
+            if .|length == 2 then {lat: .[0], lng: .[1]} else empty end
            )
           ], 
           [.diameters[]/2], 
           .lifts
         ] 
-        | transpose | {thermails: [ .[] | {lat:.[0].lat, lon:.[0].lon, radius:.[1], lift: .[2]}]}' \
+        | transpose | {thermails: [ .[] | {lat:.[0].lat, lng:.[0].lng, radius:.[1], lift: .[2]}]}' \
 $1 
