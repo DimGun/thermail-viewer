@@ -16,9 +16,9 @@ if (!flightDataRaw) {
 const flightData = JSON.parse(flightDataRaw);
 
 // Parsing flight track
-const track = parseTrack(flightData.jsinfo);
+const trackData = parseTrack(flightData.jsinfo);
 const trackFilePath = './xc-track.json';
-fs.writeFile(trackFilePath, JSON.stringify(track), function(err) {
+fs.writeFile(trackFilePath, JSON.stringify(trackData), function(err) {
     if(err){
         return console.log(err);
     }
@@ -27,8 +27,9 @@ fs.writeFile(trackFilePath, JSON.stringify(track), function(err) {
 
 // Parsing thermails info
 const thermails = parseThermails(flightData.jsinfo);
+const thermailsData = {'thermails': thermails};
 const thermailsFilePath = './xc-thermails.json';
-fs.writeFile(thermailsFilePath, JSON.stringify(thermails), function(err) {
+fs.writeFile(thermailsFilePath, JSON.stringify(thermailsData), function(err) {
     if(err){
         return console.log(err);
     }

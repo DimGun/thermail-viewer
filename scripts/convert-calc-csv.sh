@@ -5,4 +5,4 @@ if [ $# == 0 ]; then
   exit
 fi
 
-csvjson -S $1 | jq "{thermails:[.[]|{lat:.lat|tonumber, lng:.lng|tonumber, lift: .lift|tonumber, radius: .radius|tonumber, r2: .r2|tonumber}]}"
+csvjson -S $1 | jq "{thermails:[.[]|{center: {lat:.lat|tonumber, lng:.lng|tonumber}, lift: .lift|tonumber, radius: .radius|tonumber, r2: .r2|tonumber}]}"
