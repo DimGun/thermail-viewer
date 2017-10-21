@@ -31,7 +31,18 @@
         mapTypeId: 'terrain'
       });
 
-      for (therm of window.flightBoxData.thermails) {
+      console.log("Rendering thermails from XCGlobe")
+      renderTrackThermails(window.flightBoxData.thermails);
+
+      console.log("Rendering calculated thermails");
+      renderCalculatedThermails(window.calculatedData.thermails);
+
+      console.log("Rendering flight track");
+      renderTrack(trackData);
+    }
+
+    function renderTrackThermails(thermails) {
+      for (therm of thermails) {
         console.log(therm);
         circle = new google.maps.Circle({
           map: map,
@@ -43,9 +54,10 @@
           strokeWeight: 1
         });
       };
+    }
 
-      console.log("Rendering calculated data");
-      for (therm of window.calculatedData.thermails) {
+    function renderCalculatedThermails(thermails) {
+      for (therm of thermails) {
         console.log(therm);
         circle = new google.maps.Circle({
           map: map,
@@ -53,12 +65,13 @@
           radius: therm.radius,
           fillColor: determinationColor(therm.r2),
           fillOpacity: 0.5,
-          strokeWeight: 0.5, 
+          strokeWeight: 0.5,
           zIndex: 100
         });
       };
+    }
 
-      console.log("Rendering flight track");
+    function renderTrack(trackData) {
       new google.maps.Polyline({
         map: map,
         path: window.trackData.gpts,
