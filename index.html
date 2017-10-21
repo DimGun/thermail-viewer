@@ -37,8 +37,9 @@
           map: map,
           center: therm.center,
           radius: therm.radius,
-          fillColor: 'red',
+          fillColor: 'blue',
           fillOpacity: 0.5,
+          zIndex: 0,
           strokeWeight: 1
         });
       };
@@ -50,9 +51,10 @@
           map: map,
           center: therm.center,
           radius: therm.radius,
-          fillColor: 'green',
-          fillOpacity: therm.r2, //Determination coeff
-          strokeWeight: 0.5
+          fillColor: determinationColor(therm.r2),
+          fillOpacity: 0.5,
+          strokeWeight: 0.5, 
+          zIndex: 100
         });
       };
 
@@ -64,14 +66,36 @@
         strokeColor: 'yellow'
       });
     }
+
+    function determinationColor(determinationCoeff) {
+      // Assuming 0.60 is the lowest determination possible
+      const minCoeffValue = 0.6;
+      const trimmedValue = Math.max(determinationCoeff - minCoeffValue, 0);
+      const normalizedValue = trimmedValue / (1 - minCoeffValue);
+      return redYellowGreenLerp(normalizedValue);
+    }
+
+    function redYellowGreenLerp(value) {
+      // Color linear interpolation
+      // red color for 0,
+      // yellow for 0.5,
+      // green for 1.0
+      const lowHue = 0; //red
+      const hightHue = 120; //green
+      const hue = lowHue + (hightHue - lowHue) * value;
+      return 'hsl(' + hue + ', 100%, 50%)';
+    }
+
     function flightBoxDataFetchedCallback(data) {
       console.log("Thermails loaded: ", data.thermails.length);
       window.flightBoxData = data;
     }
+
     function calculatedDataFetchedCallback(data) {
       console.log("Thermails loaded: ", data.thermails.length);
       window.calculatedData = data;
     }
+
     function trackDataFetchedCallback(data) {
       console.log("Track is loaded");
       window.trackData = data;
