@@ -109,7 +109,7 @@
     function renderTrack(trackData) {
       new google.maps.Polyline({
         map: map,
-        path: window.trackData.gpts,
+        path: window.trackData.points,
         strokeWeight: 2,
         strokeColor: 'yellow'
       });
@@ -156,15 +156,15 @@
     // User interaction handling
     function handleKeyPress(e){
       console.log(`Key ${e.code} pressed`);
-      const nextTPIdx = window.currentTrackPointId + 100;
-      window.currentTrackPointId = (nextTPIdx < window.trackData.gpts.length)? nextTPIdx : 0;
+      const nextTPIdx = window.currentTrackPointId + 10;
+      window.currentTrackPointId = (nextTPIdx < window.trackData.points.length)? nextTPIdx : 0;
       renderCalculatedThermailsForTrackPointId(window.currentTrackPointId, window.map, window.calculatedData.thermails);
     }
     window.addEventListener('keydown', handleKeyPress);
   </script>
   <script src="data/xc-thermails.js"></script>
   <script src="data/calculated_thermails.js"></script>
-  <script src="data/xc-track.js"></script>
+  <script src="data/igc-track.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM-8hga1cAOBlE2a9ssL95G3SCMXh5B8o&callback=initMap">
 
   </script>
