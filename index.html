@@ -30,25 +30,34 @@
           console.log(therm);
           circle = new google.maps.Circle({
             map: map,
-            center: {lat: therm.lat, lng:therm.lng},
+            center: therm.center,
             radius: therm.radius,
             fillColor: 'red',
             fillOpacity: 0.5,
             strokeWeight: 1
           });
         };
+
         console.log("Rendering calculated data");
         for(therm of window.calculatedData.thermails) {
           console.log(therm);
           circle = new google.maps.Circle({
             map: map,
-            center: {lat: therm.lat, lng:therm.lng},
+            center: therm.center,
             radius: therm.radius,
             fillColor: 'green',
             fillOpacity: therm.r2, //Determination coeff
             strokeWeight: 0.5
           });
         };
+
+        console.log("Rendering flight track");
+        new google.maps.Polyline({
+          map: map,
+          path: window.trackData.gpts,
+          strokeWeight: 2,
+          strokeColor: 'yellow'
+        });
       }
       function flightBoxDataFetchedCallback(data) {
         console.log("Thermails loaded: ", data.thermails.length);
@@ -58,9 +67,14 @@
         console.log("Thermails loaded: ", data.thermails.length);
         window.calculatedData = data;
       }
+      function trackDataFetchedCallback(data) {
+        console.log("Track is loaded");
+        window.trackData = data;
+      }
     </script>
-    <script src="data/from_fbox.js"></script>
+    <script src="data/xc-thermails.js"></script>
     <script src="data/calculated_thermails.js"></script>
+    <script src="data/xc-track.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM-8hga1cAOBlE2a9ssL95G3SCMXh5B8o&callback=initMap">
     </script>
