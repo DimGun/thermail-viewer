@@ -23,6 +23,7 @@
 <body>
   <div id="map"></div>
   <script>
+    window.currentTrackPointId = 595;
     var map;
     function initMap() {
       window.map = new google.maps.Map(document.getElementById('map'), {
@@ -149,6 +150,17 @@
       console.log("Track is loaded");
       window.trackData = data;
     }
+  </script>
+
+  <script>
+    // User interaction handling
+    function handleKeyPress(e){
+      console.log(`Key ${e.code} pressed`);
+      const nextTPIdx = window.currentTrackPointId + 100;
+      window.currentTrackPointId = (nextTPIdx < window.trackData.gpts.length)? nextTPIdx : 0;
+      renderCalculatedThermailsForTrackPointId(window.currentTrackPointId, window.map, window.calculatedData.thermails);
+    }
+    window.addEventListener('keydown', handleKeyPress);
   </script>
   <script src="data/xc-thermails.js"></script>
   <script src="data/calculated_thermails.js"></script>
