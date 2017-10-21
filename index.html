@@ -43,32 +43,33 @@
 
     function renderTrackThermails(thermails) {
       for (therm of thermails) {
-        console.log(therm);
-        circle = new google.maps.Circle({
-          map: map,
-          center: therm.center,
-          radius: therm.radius,
+        renderThermail(therm, {
+          zIndex:100,
           fillColor: 'blue',
-          fillOpacity: 0.5,
-          zIndex: 0,
-          strokeWeight: 1
+          zIndex: 0
         });
       };
     }
 
     function renderCalculatedThermails(thermails) {
       for (therm of thermails) {
-        console.log(therm);
+        renderThermail(therm, {
+          zIndex:100,
+          fillColor: determinationColor(therm.r2)
+        });
+      };
+    }
+
+    function renderThermail(therm, options) {
         circle = new google.maps.Circle({
           map: map,
           center: therm.center,
           radius: therm.radius,
-          fillColor: determinationColor(therm.r2),
           fillOpacity: 0.5,
-          strokeWeight: 0.5,
-          zIndex: 100
+          strokeWeight: 1,
+          ...options
         });
-      };
+        return circle;
     }
 
     function renderTrack(trackData) {
