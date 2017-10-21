@@ -43,7 +43,7 @@
 
     function renderTrackThermails(thermails) {
       for (therm of thermails) {
-        renderThermail(therm, {
+        renderThermail(map, therm, {
           zIndex:100,
           fillColor: 'blue',
           zIndex: 0
@@ -53,14 +53,17 @@
 
     function renderCalculatedThermails(thermails) {
       for (therm of thermails) {
-        renderThermail(therm, {
+        renderThermail(map, therm, {
           zIndex:100,
           fillColor: determinationColor(therm.r2)
         });
       };
     }
-
-    function renderThermail(therm, options) {
+  </script> 
+   
+  <script>
+    // Rendering routines
+    function renderThermail(map, therm, options) {
         circle = new google.maps.Circle({
           map: map,
           center: therm.center,
@@ -99,7 +102,9 @@
       const hue = lowHue + (hightHue - lowHue) * value;
       return 'hsl(' + hue + ', 100%, 50%)';
     }
-
+  </script>
+  <script> 
+    // Data loading routines
     function flightBoxDataFetchedCallback(data) {
       console.log("Thermails loaded: ", data.thermails.length);
       window.flightBoxData = data;
