@@ -37,7 +37,10 @@
       console.log("Rendering flight track");
       renderTrack(window.map, window.trackData);
     }
+  </script>
 
+  <script>
+    // Rendering routines
     function renderTrackThermails(map, thermails) {
       for (therm of thermails) {
         renderThermail(map, therm, {
@@ -56,10 +59,7 @@
         });
       };
     }
-  </script> 
-   
-  <script>
-    // Rendering routines
+
     function renderThermail(map, therm, options) {
         circle = new google.maps.Circle({
           map: map,
