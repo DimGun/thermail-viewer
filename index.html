@@ -25,23 +25,20 @@
   <script>
     var map;
     function initMap() {
-      map = new google.maps.Map(document.getElementById('map'), {
+      window.map = new google.maps.Map(document.getElementById('map'), {
         zoom: 12,
         center: { lat: 46.48991, lng: 11.7614 },
         mapTypeId: 'terrain'
       });
 
       console.log("Rendering thermails from XCGlobe")
-      renderTrackThermails(window.flightBoxData.thermails);
-
-      console.log("Rendering calculated thermails");
-      renderCalculatedThermails(window.calculatedData.thermails);
+      renderTrackThermails(window.map, window.flightBoxData.thermails);
 
       console.log("Rendering flight track");
-      renderTrack(trackData);
+      renderTrack(window.map, window.trackData);
     }
 
-    function renderTrackThermails(thermails) {
+    function renderTrackThermails(map, thermails) {
       for (therm of thermails) {
         renderThermail(map, therm, {
           zIndex:100,
