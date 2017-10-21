@@ -51,7 +51,40 @@
       };
     }
 
-    function renderCalculatedThermails(thermails) {
+    function renderCalculatedThermailsForTrackPointId(trackPointId, map, thermails) {
+      const countOfPriorThermailsToShow = 2;
+      const nearestThermailIdx = -1 + thermails.findIndex(function (therm) {
+        return therm.trackPointId > trackPointId
+      });
+      console.log("trackPointId = ", trackPointId);
+      console.log("NearestThermailIdx = ", nearestThermailIdx);
+      if (nearestThermailIdx < 0) {
+        return;
+      }
+
+      const therm  = thermails[nearestThermailIdx];
+      console.log("Rendering thermail = ", therm);
+        renderThermail(map, therm, {
+          zIndex: 100,
+          fillColor: determinationColor(therm.r2), 
+          fillOpacity: 0.5
+        });
+
+      // const startIdx = Math.max(0, nearestThermailIdx - countOfPriorThermailsToShow);
+      // const endIdx = nearestThermailIdx;
+
+      // for (let i = startIdx; i <= endIdx; i++) {
+      //   const therm  = thermails[i];
+      //   const opacity = 0.1 + i * 0.4 * (i-startIdx)/(endIdx - startIdx); // from 0.1 to 0.5
+      //   renderThermail(map, therm, {
+      //     zIndex: 100,
+      //     fillColor: determinationColor(therm.r2), 
+      //     fillOpacity: opacity
+      //   });
+      // };
+    }
+
+    function renderAllCalculatedThermails(map, thermails) {
       for (therm of thermails) {
         renderThermail(map, therm, {
           zIndex:100,
