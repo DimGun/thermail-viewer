@@ -251,6 +251,10 @@
 
       // Remove previously rendered calculated thermails
       thermailsViewsToDestroy.forEach(destroyRenderedThermail);
+
+      if (!map.getBounds().contains(currentTrackPoint)) {
+        map.panTo(currentTrackPoint);
+      }
     }
   </script>
   <script src="data/xc-thermails.js"></script>
