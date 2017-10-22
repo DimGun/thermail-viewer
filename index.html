@@ -4,6 +4,7 @@
 <head>
   <style>
     /* Makes the page fill the window. */
+
     html,
     body {
       height: 100%;
@@ -19,7 +20,7 @@
     <div id="map" style="flex-grow: 1"></div>
     <div id="alt-chart" style="flex-basis:20%"></div>
   </div>
-  
+
   <script>
     window.currentTrackPointId = 595;
     window.calculatedThermailsViews = [];
@@ -172,7 +173,7 @@
       data.addColumn('number', 'Point Idx');
       data.addColumn('number', 'Altitude');
 
-      const rows = window.trackData.points.map(function(point, idx){
+      const rows = window.trackData.points.map(function (point, idx) {
         return [idx, point.alt];
       })
 
@@ -185,7 +186,10 @@
       // Instantiate and draw our chart, passing in some options.
       window.trackChart = new google.visualization.LineChart(document.getElementById('alt-chart'));
       window.trackChart.draw(data, options);
+
+      google.visualization.events.addListener(window.trackChart, 'onmouseover', onMouseOverChartHandler);
     }
+
   </script>
   <script>
     // Data loading routines
@@ -219,8 +223,20 @@
         return;
       }
 
+      updateViewForCurrentTrackPointId(window.currentTrackPointId);
+    }
+
+    window.addEventListener('keydown', handleKeyPress);
+
+    function onMouseOverChartHandler(e) {
+      console.debug("Chart onMouseOver fired: ", e);
+      window.currentTrackPointId = e.row;
+      updateViewForCurrentTrackPointId(window.currentTrackPointId);
+    }
+
+    function updateViewForCurrentTrackPointId(trackPointId) {
       // Render new position of plane
-      const currentTrackPoint = window.trackData.points[window.currentTrackPointId];
+      const currentTrackPoint = window.trackData.points[trackPointId];
       window.planeMarker = renderPlane(window.map, window.planeMarker, currentTrackPoint);
 
       //  Get previously rendered calculated thermails
@@ -228,7 +244,7 @@
 
       // Render new thermails
       window.calculatedThermailsViews = renderCalculatedThermailsForTrackPointId(
-        window.currentTrackPointId,
+        trackPointId,
         window.map,
         window.calculatedData.thermails
       );
@@ -236,16 +252,11 @@
       // Remove previously rendered calculated thermails
       thermailsViewsToDestroy.forEach(destroyRenderedThermail);
     }
-    window.addEventListener('keydown', handleKeyPress);
   </script>
   <script src="data/xc-thermails.js"></script>
   <script src="data/calculated_thermails.js"></script>
   <script src="data/igc-track.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM-8hga1cAOBlE2a9ssL95G3SCMXh5B8o&callback=initMap"></script>
-  <script>
-    window.onload = function() {
-    }
-  </script>
 
 </body>
 
