@@ -38,6 +38,9 @@
 
       console.log("Rendering flight track");
       renderTrack(window.map, window.trackData);
+
+      console.log("Render initial plane location");
+      window.planeMarker = renderPlane(map, null, window.trackData.points[window.currentTrackPointId]);
     }
   </script>
 
@@ -110,11 +113,29 @@
 
     function renderTrack(trackData) {
       new google.maps.Polyline({
-        map: map,
+        map: map, //FIXME: add as parameter
         path: window.trackData.points,
         strokeWeight: 2,
         strokeColor: 'yellow'
       });
+    }
+
+    function renderPlane(map, planeMarker, point){
+      let marker = planeMarker;
+      if (!marker){
+        marker = new google.maps.Marker({
+          map: map,
+          icon: {
+            path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+            scale: 4,
+            strokeColor: 'red'
+          }
+        });
+      }
+
+      console.debug("Plane point: ", point);
+      marker.setPosition(point);
+      return marker;
     }
 
     function determinationColor(determinationCoeff) {
@@ -167,6 +188,10 @@
       } else {
         return;
       }
+
+      // Render new position of plane
+      const currentTrackPoint = window.trackData.points[window.currentTrackPointId];
+      window.planeMarker = renderPlane(window.map, window.planeMarker, currentTrackPoint);
 
       //  Get previously rendered calculated thermails
       const thermailsViewsToDestroy = window.calculatedThermailsViews;
