@@ -1,6 +1,7 @@
 calculatedDataFetchedCallback({
   "thermails": [
     {
+      "trackPointId": 595,
       "center": {
         "lat": 46.490215609204576,
         "lng": 11.761325017056475
@@ -10,6 +11,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6534147531551455
     },
     {
+      "trackPointId": 596,
       "center": {
         "lat": 46.492162715864694,
         "lng": 11.761730033203271
@@ -19,6 +21,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7207714901852035
     },
     {
+      "trackPointId": 597,
       "center": {
         "lat": 46.49105326188638,
         "lng": 11.761403347888193
@@ -28,6 +31,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6949697227404208
     },
     {
+      "trackPointId": 598,
       "center": {
         "lat": 46.48998927966518,
         "lng": 11.761235947773086
@@ -37,6 +41,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8767838377247943
     },
     {
+      "trackPointId": 599,
       "center": {
         "lat": 46.490128290985695,
         "lng": 11.760978717404491
@@ -46,6 +51,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8716137412340571
     },
     {
+      "trackPointId": 600,
       "center": {
         "lat": 46.48992215084207,
         "lng": 11.761286520568584
@@ -55,6 +61,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8632731703551995
     },
     {
+      "trackPointId": 601,
       "center": {
         "lat": 46.48990901509037,
         "lng": 11.761306752827211
@@ -64,6 +71,7 @@ calculatedDataFetchedCallback({
       "r2": 0.807543926151314
     },
     {
+      "trackPointId": 642,
       "center": {
         "lat": 46.48967579327982,
         "lng": 11.761217300372396
@@ -73,6 +81,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7569729765643112
     },
     {
+      "trackPointId": 643,
       "center": {
         "lat": 46.48968804836815,
         "lng": 11.761214830587136
@@ -82,6 +91,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7521752661489715
     },
     {
+      "trackPointId": 644,
       "center": {
         "lat": 46.489700549887985,
         "lng": 11.761285035455742
@@ -91,6 +101,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7456868238489962
     },
     {
+      "trackPointId": 645,
       "center": {
         "lat": 46.48969944524105,
         "lng": 11.761470039710204
@@ -100,6 +111,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8609934609246817
     },
     {
+      "trackPointId": 646,
       "center": {
         "lat": 46.48968253847687,
         "lng": 11.76162146910179
@@ -109,6 +121,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9518513748359985
     },
     {
+      "trackPointId": 647,
       "center": {
         "lat": 46.489670128659434,
         "lng": 11.761680421726874
@@ -118,6 +131,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8545224352160944
     },
     {
+      "trackPointId": 648,
       "center": {
         "lat": 46.48966793534077,
         "lng": 11.761754022552026
@@ -127,6 +141,7 @@ calculatedDataFetchedCallback({
       "r2": 0.82764488882797
     },
     {
+      "trackPointId": 649,
       "center": {
         "lat": 46.48966027747197,
         "lng": 11.761814183183159
@@ -136,6 +151,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6713507215247865
     },
     {
+      "trackPointId": 650,
       "center": {
         "lat": 46.489675015693486,
         "lng": 11.76187274796179
@@ -145,6 +161,7 @@ calculatedDataFetchedCallback({
       "r2": 0.693215773696782
     },
     {
+      "trackPointId": 652,
       "center": {
         "lat": 46.48993812769165,
         "lng": 11.761890017738734
@@ -154,6 +171,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7168477532119768
     },
     {
+      "trackPointId": 653,
       "center": {
         "lat": 46.4918497132818,
         "lng": 11.762710326631435
@@ -163,6 +181,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8014235755986538
     },
     {
+      "trackPointId": 654,
       "center": {
         "lat": 46.49200314911549,
         "lng": 11.762748386322112
@@ -172,6 +191,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8340915315002426
     },
     {
+      "trackPointId": 655,
       "center": {
         "lat": 46.490146530840946,
         "lng": 11.76194001319034
@@ -181,6 +201,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8002710446564862
     },
     {
+      "trackPointId": 656,
       "center": {
         "lat": 46.489929333428265,
         "lng": 11.761777717646627
@@ -190,6 +211,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7365264887108189
     },
     {
+      "trackPointId": 657,
       "center": {
         "lat": 46.4898095913028,
         "lng": 11.761829367393318
@@ -199,6 +221,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6754370168641846
     },
     {
+      "trackPointId": 683,
       "center": {
         "lat": 46.48917945779615,
         "lng": 11.765232408305168
@@ -208,6 +231,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6922933051181832
     },
     {
+      "trackPointId": 684,
       "center": {
         "lat": 46.4896241531412,
         "lng": 11.7630354371164
@@ -217,6 +241,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8109658284945516
     },
     {
+      "trackPointId": 685,
       "center": {
         "lat": 46.48966619005095,
         "lng": 11.76282478328538
@@ -226,6 +251,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8437714062061524
     },
     {
+      "trackPointId": 686,
       "center": {
         "lat": 46.489684488143574,
         "lng": 11.762724777470243
@@ -235,6 +261,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8412153518404977
     },
     {
+      "trackPointId": 687,
       "center": {
         "lat": 46.489721230925205,
         "lng": 11.762734237574813
@@ -244,6 +271,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6885124865149196
     },
     {
+      "trackPointId": 688,
       "center": {
         "lat": 46.489776733450284,
         "lng": 11.762726076791443
@@ -253,6 +281,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8070141053481501
     },
     {
+      "trackPointId": 689,
       "center": {
         "lat": 46.49000060393862,
         "lng": 11.76282219539905
@@ -262,6 +291,7 @@ calculatedDataFetchedCallback({
       "r2": 0.775724493230826
     },
     {
+      "trackPointId": 701,
       "center": {
         "lat": 46.488601886633326,
         "lng": 11.766015105158335
@@ -271,6 +301,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7603571079683532
     },
     {
+      "trackPointId": 702,
       "center": {
         "lat": 46.48956770609604,
         "lng": 11.763066788843796
@@ -280,6 +311,7 @@ calculatedDataFetchedCallback({
       "r2": 0.756473513762564
     },
     {
+      "trackPointId": 703,
       "center": {
         "lat": 46.48930099884037,
         "lng": 11.764137519644379
@@ -289,6 +321,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7756902072698162
     },
     {
+      "trackPointId": 704,
       "center": {
         "lat": 46.48901633601375,
         "lng": 11.764937713880249
@@ -298,6 +331,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8019494947505439
     },
     {
+      "trackPointId": 705,
       "center": {
         "lat": 46.489341214144886,
         "lng": 11.763609823321742
@@ -307,6 +341,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8115864569498126
     },
     {
+      "trackPointId": 706,
       "center": {
         "lat": 46.48881118098494,
         "lng": 11.765894344634068
@@ -316,6 +351,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7236122116227908
     },
     {
+      "trackPointId": 708,
       "center": {
         "lat": 46.489877895246764,
         "lng": 11.765647566470083
@@ -325,6 +361,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7466582690103958
     },
     {
+      "trackPointId": 709,
       "center": {
         "lat": 46.48968122529164,
         "lng": 11.763337855324446
@@ -334,6 +371,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7220055726154628
     },
     {
+      "trackPointId": 925,
       "center": {
         "lat": 46.489260640736426,
         "lng": 11.758684438756008
@@ -343,6 +381,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8325724607335454
     },
     {
+      "trackPointId": 926,
       "center": {
         "lat": 46.489125322816335,
         "lng": 11.758720682968326
@@ -352,6 +391,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8109314829854922
     },
     {
+      "trackPointId": 927,
       "center": {
         "lat": 46.489111297279464,
         "lng": 11.75872149457424
@@ -361,6 +401,7 @@ calculatedDataFetchedCallback({
       "r2": 0.858387605614405
     },
     {
+      "trackPointId": 928,
       "center": {
         "lat": 46.48925285150153,
         "lng": 11.758937171445975
@@ -370,6 +411,7 @@ calculatedDataFetchedCallback({
       "r2": 0.873418793676181
     },
     {
+      "trackPointId": 929,
       "center": {
         "lat": 46.48981997119109,
         "lng": 11.761675006534288
@@ -379,6 +421,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8265961395187218
     },
     {
+      "trackPointId": 930,
       "center": {
         "lat": 46.48990640516298,
         "lng": 11.762132013524957
@@ -388,6 +431,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8704990531795591
     },
     {
+      "trackPointId": 931,
       "center": {
         "lat": 46.48992206829067,
         "lng": 11.762179838931637
@@ -397,6 +441,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9346039743011374
     },
     {
+      "trackPointId": 932,
       "center": {
         "lat": 46.4899124500313,
         "lng": 11.762106686145483
@@ -406,6 +451,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9187072017925328
     },
     {
+      "trackPointId": 933,
       "center": {
         "lat": 46.489924905886184,
         "lng": 11.762167447101152
@@ -415,6 +461,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9537542201724233
     },
     {
+      "trackPointId": 934,
       "center": {
         "lat": 46.48991216307541,
         "lng": 11.762154932452804
@@ -424,6 +471,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9549701730556706
     },
     {
+      "trackPointId": 935,
       "center": {
         "lat": 46.489587898232415,
         "lng": 11.761929573931956
@@ -433,6 +481,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9636681716978227
     },
     {
+      "trackPointId": 936,
       "center": {
         "lat": 46.48988435316038,
         "lng": 11.76212914010713
@@ -442,6 +491,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9506726307293997
     },
     {
+      "trackPointId": 937,
       "center": {
         "lat": 46.48986539394298,
         "lng": 11.762035313701418
@@ -451,6 +501,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9023317965360641
     },
     {
+      "trackPointId": 938,
       "center": {
         "lat": 46.48993573553833,
         "lng": 11.762126041530014
@@ -460,6 +511,7 @@ calculatedDataFetchedCallback({
       "r2": 0.873771400999493
     },
     {
+      "trackPointId": 942,
       "center": {
         "lat": 46.48835470959725,
         "lng": 11.760454715224425
@@ -469,6 +521,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8400886688270129
     },
     {
+      "trackPointId": 943,
       "center": {
         "lat": 46.48968476154749,
         "lng": 11.761894710021481
@@ -478,6 +531,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8572612247604805
     },
     {
+      "trackPointId": 944,
       "center": {
         "lat": 46.48975257995245,
         "lng": 11.761938075972077
@@ -487,6 +541,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8791321122495753
     },
     {
+      "trackPointId": 945,
       "center": {
         "lat": 46.48976497222717,
         "lng": 11.76196005283815
@@ -496,6 +551,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7440825528783582
     },
     {
+      "trackPointId": 946,
       "center": {
         "lat": 46.48977335685677,
         "lng": 11.761966621538125
@@ -505,6 +561,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7208876784789566
     },
     {
+      "trackPointId": 947,
       "center": {
         "lat": 46.4897672422117,
         "lng": 11.761974197693121
@@ -514,6 +571,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7125782045884435
     },
     {
+      "trackPointId": 948,
       "center": {
         "lat": 46.489752137740545,
         "lng": 11.762025598780523
@@ -523,6 +581,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7409201683058282
     },
     {
+      "trackPointId": 949,
       "center": {
         "lat": 46.489721483463946,
         "lng": 11.762119812335845
@@ -532,6 +591,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8109947461304811
     },
     {
+      "trackPointId": 968,
       "center": {
         "lat": 46.49034478509658,
         "lng": 11.76277313229862
@@ -541,6 +601,7 @@ calculatedDataFetchedCallback({
       "r2": 0.957914108467834
     },
     {
+      "trackPointId": 969,
       "center": {
         "lat": 46.490207662607695,
         "lng": 11.76253481473507
@@ -550,6 +611,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8436858467137138
     },
     {
+      "trackPointId": 970,
       "center": {
         "lat": 46.490089123826834,
         "lng": 11.76229357231095
@@ -559,6 +621,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7057785906088307
     },
     {
+      "trackPointId": 971,
       "center": {
         "lat": 46.49004565486481,
         "lng": 11.762120503764933
@@ -568,6 +631,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7045967059429847
     },
     {
+      "trackPointId": 972,
       "center": {
         "lat": 46.49007931588447,
         "lng": 11.761457488264776
@@ -577,6 +641,7 @@ calculatedDataFetchedCallback({
       "r2": 0.729659265360866
     },
     {
+      "trackPointId": 973,
       "center": {
         "lat": 46.49010654335322,
         "lng": 11.761265588714476
@@ -586,6 +651,7 @@ calculatedDataFetchedCallback({
       "r2": 0.816961917898067
     },
     {
+      "trackPointId": 974,
       "center": {
         "lat": 46.4901080614344,
         "lng": 11.76135695895419
@@ -595,6 +661,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8415649321851596
     },
     {
+      "trackPointId": 975,
       "center": {
         "lat": 46.490092712835086,
         "lng": 11.761608496181317
@@ -604,6 +671,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8358598914060762
     },
     {
+      "trackPointId": 976,
       "center": {
         "lat": 46.49008879071759,
         "lng": 11.761744176120361
@@ -613,6 +681,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7882448112274143
     },
     {
+      "trackPointId": 977,
       "center": {
         "lat": 46.4900883664332,
         "lng": 11.761806328661416
@@ -622,6 +691,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7188564413940205
     },
     {
+      "trackPointId": 978,
       "center": {
         "lat": 46.490086523125235,
         "lng": 11.761826382933084
@@ -631,6 +701,7 @@ calculatedDataFetchedCallback({
       "r2": 0.679049272370809
     },
     {
+      "trackPointId": 979,
       "center": {
         "lat": 46.49005248374039,
         "lng": 11.761847064955491
@@ -640,6 +711,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6505891065503075
     },
     {
+      "trackPointId": 980,
       "center": {
         "lat": 46.48987686954268,
         "lng": 11.761759988570384
@@ -649,6 +721,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7287519926537551
     },
     {
+      "trackPointId": 981,
       "center": {
         "lat": 46.48987514691225,
         "lng": 11.7617826399844
@@ -658,6 +731,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7525168917034104
     },
     {
+      "trackPointId": 982,
       "center": {
         "lat": 46.48994797144932,
         "lng": 11.761873528365081
@@ -667,6 +741,7 @@ calculatedDataFetchedCallback({
       "r2": 0.843346870173233
     },
     {
+      "trackPointId": 983,
       "center": {
         "lat": 46.489940266392324,
         "lng": 11.761864212202553
@@ -676,6 +751,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7480561382104673
     },
     {
+      "trackPointId": 986,
       "center": {
         "lat": 46.49002015584638,
         "lng": 11.761948027392567
@@ -685,6 +761,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8347992865578574
     },
     {
+      "trackPointId": 987,
       "center": {
         "lat": 46.489996513810475,
         "lng": 11.761926558689472
@@ -694,6 +771,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8833723234605323
     },
     {
+      "trackPointId": 988,
       "center": {
         "lat": 46.489989184716116,
         "lng": 11.761920663249034
@@ -703,6 +781,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9021695202934314
     },
     {
+      "trackPointId": 989,
       "center": {
         "lat": 46.48998491879041,
         "lng": 11.761891934042026
@@ -712,6 +791,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9385735671555023
     },
     {
+      "trackPointId": 990,
       "center": {
         "lat": 46.48998660226461,
         "lng": 11.761892207908303
@@ -721,6 +801,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9411394634980597
     },
     {
+      "trackPointId": 991,
       "center": {
         "lat": 46.48999880773043,
         "lng": 11.761960431169381
@@ -730,6 +811,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8032704019446901
     },
     {
+      "trackPointId": 992,
       "center": {
         "lat": 46.48999838634772,
         "lng": 11.761991102373672
@@ -739,6 +821,7 @@ calculatedDataFetchedCallback({
       "r2": 0.736560241851046
     },
     {
+      "trackPointId": 993,
       "center": {
         "lat": 46.49000588523727,
         "lng": 11.76198756322864
@@ -748,6 +831,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7087996786844379
     },
     {
+      "trackPointId": 1007,
       "center": {
         "lat": 46.489888768456,
         "lng": 11.76171612363759
@@ -757,6 +841,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6621985338197117
     },
     {
+      "trackPointId": 1008,
       "center": {
         "lat": 46.49016670954602,
         "lng": 11.762593471380733
@@ -766,6 +851,7 @@ calculatedDataFetchedCallback({
       "r2": 0.721036256266776
     },
     {
+      "trackPointId": 1009,
       "center": {
         "lat": 46.49001593753558,
         "lng": 11.762392063386352
@@ -775,6 +861,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7831492491513311
     },
     {
+      "trackPointId": 1010,
       "center": {
         "lat": 46.489901260781124,
         "lng": 11.761750858055015
@@ -784,6 +871,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7799527056037481
     },
     {
+      "trackPointId": 1025,
       "center": {
         "lat": 46.489474663015116,
         "lng": 11.765524210992274
@@ -793,6 +881,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7560582066834953
     },
     {
+      "trackPointId": 1027,
       "center": {
         "lat": 46.48932530370375,
         "lng": 11.765482825287247
@@ -802,6 +891,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6509584018166745
     },
     {
+      "trackPointId": 1030,
       "center": {
         "lat": 46.4898069975466,
         "lng": 11.761966686365517
@@ -811,6 +901,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6648967856955902
     },
     {
+      "trackPointId": 1049,
       "center": {
         "lat": 46.49140102825017,
         "lng": 11.760205993493154
@@ -820,6 +911,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9321007550635827
     },
     {
+      "trackPointId": 1050,
       "center": {
         "lat": 46.49103503940894,
         "lng": 11.760811074132466
@@ -829,6 +921,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8468135025597303
     },
     {
+      "trackPointId": 1055,
       "center": {
         "lat": 46.4919752558342,
         "lng": 11.759885999203284
@@ -838,6 +931,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7172340632157532
     },
     {
+      "trackPointId": 1056,
       "center": {
         "lat": 46.4914797852417,
         "lng": 11.759408795961265
@@ -847,6 +941,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6510157335424988
     },
     {
+      "trackPointId": 1111,
       "center": {
         "lat": 46.490291490463214,
         "lng": 11.758320250515709
@@ -856,6 +951,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7142959888677576
     },
     {
+      "trackPointId": 1112,
       "center": {
         "lat": 46.49049584093248,
         "lng": 11.75838342206125
@@ -865,6 +961,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7291707195708435
     },
     {
+      "trackPointId": 1113,
       "center": {
         "lat": 46.490025540769004,
         "lng": 11.761972404285803
@@ -874,6 +971,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7659912530342449
     },
     {
+      "trackPointId": 1114,
       "center": {
         "lat": 46.48990343601575,
         "lng": 11.762394393540468
@@ -883,6 +981,7 @@ calculatedDataFetchedCallback({
       "r2": 0.831031854129515
     },
     {
+      "trackPointId": 1115,
       "center": {
         "lat": 46.48988642269,
         "lng": 11.762232575770058
@@ -892,6 +991,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7704029216506155
     },
     {
+      "trackPointId": 1137,
       "center": {
         "lat": 46.489489704283436,
         "lng": 11.760163050196095
@@ -901,6 +1001,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8160801104916129
     },
     {
+      "trackPointId": 1138,
       "center": {
         "lat": 46.48953452718421,
         "lng": 11.761313638659013
@@ -910,6 +1011,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8200137694967774
     },
     {
+      "trackPointId": 1139,
       "center": {
         "lat": 46.48952854903725,
         "lng": 11.76143395840413
@@ -919,6 +1021,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8065886740709265
     },
     {
+      "trackPointId": 1301,
       "center": {
         "lat": 46.492978263141495,
         "lng": 11.757026247227888
@@ -928,6 +1031,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7694978397511717
     },
     {
+      "trackPointId": 1302,
       "center": {
         "lat": 46.49299876591426,
         "lng": 11.75748716499723
@@ -937,6 +1041,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8131123445621103
     },
     {
+      "trackPointId": 1314,
       "center": {
         "lat": 46.49416523725241,
         "lng": 11.754218594564637
@@ -946,6 +1051,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8756317487946332
     },
     {
+      "trackPointId": 1315,
       "center": {
         "lat": 46.4933805244401,
         "lng": 11.75593296955416
@@ -955,6 +1061,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9363121629746332
     },
     {
+      "trackPointId": 1316,
       "center": {
         "lat": 46.494035691825694,
         "lng": 11.754296982560126
@@ -964,6 +1071,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9445965047263529
     },
     {
+      "trackPointId": 1317,
       "center": {
         "lat": 46.494534987593454,
         "lng": 11.753325956430075
@@ -973,6 +1081,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9060734214119657
     },
     {
+      "trackPointId": 1318,
       "center": {
         "lat": 46.49479997070837,
         "lng": 11.753653840848125
@@ -982,6 +1091,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6743450699112764
     },
     {
+      "trackPointId": 1320,
       "center": {
         "lat": 46.4949387485016,
         "lng": 11.755814181080291
@@ -991,6 +1101,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7212399125867812
     },
     {
+      "trackPointId": 1321,
       "center": {
         "lat": 46.49373057335259,
         "lng": 11.756174370496254
@@ -1000,6 +1111,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7972739200040442
     },
     {
+      "trackPointId": 1322,
       "center": {
         "lat": 46.493705783349355,
         "lng": 11.75615246889393
@@ -1009,6 +1121,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8679663522336782
     },
     {
+      "trackPointId": 1323,
       "center": {
         "lat": 46.49373458901719,
         "lng": 11.75610158790192
@@ -1018,6 +1131,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8781578765721749
     },
     {
+      "trackPointId": 1324,
       "center": {
         "lat": 46.49378981405108,
         "lng": 11.756027998934947
@@ -1027,6 +1141,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8376315940122475
     },
     {
+      "trackPointId": 1325,
       "center": {
         "lat": 46.49383151658493,
         "lng": 11.755942125204474
@@ -1036,6 +1151,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8222690411537017
     },
     {
+      "trackPointId": 1326,
       "center": {
         "lat": 46.493907421919474,
         "lng": 11.75647002287839
@@ -1045,6 +1161,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8477497564890644
     },
     {
+      "trackPointId": 1327,
       "center": {
         "lat": 46.494072327377474,
         "lng": 11.757778091760333
@@ -1054,6 +1171,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8390583459888963
     },
     {
+      "trackPointId": 1328,
       "center": {
         "lat": 46.493928040966395,
         "lng": 11.756339375185036
@@ -1063,6 +1181,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7837191658674794
     },
     {
+      "trackPointId": 1329,
       "center": {
         "lat": 46.49385546151287,
         "lng": 11.755883509038659
@@ -1072,6 +1191,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7609643133517137
     },
     {
+      "trackPointId": 1330,
       "center": {
         "lat": 46.493856100115174,
         "lng": 11.7558565223532
@@ -1081,6 +1201,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7537091700721166
     },
     {
+      "trackPointId": 1331,
       "center": {
         "lat": 46.49387331146077,
         "lng": 11.755802107724255
@@ -1090,6 +1211,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7317838302089301
     },
     {
+      "trackPointId": 1332,
       "center": {
         "lat": 46.49434862108939,
         "lng": 11.753257002352056
@@ -1099,6 +1221,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8240321314719778
     },
     {
+      "trackPointId": 1333,
       "center": {
         "lat": 46.49530399142723,
         "lng": 11.753110411385576
@@ -1108,6 +1231,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7006674568719118
     },
     {
+      "trackPointId": 1340,
       "center": {
         "lat": 46.49431621684482,
         "lng": 11.756203895837777
@@ -1117,6 +1241,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7427898566166173
     },
     {
+      "trackPointId": 1341,
       "center": {
         "lat": 46.49430884793088,
         "lng": 11.756166725012122
@@ -1126,6 +1251,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8301881299062367
     },
     {
+      "trackPointId": 1342,
       "center": {
         "lat": 46.49429822312664,
         "lng": 11.756156707003813
@@ -1135,6 +1261,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8318400986065471
     },
     {
+      "trackPointId": 1343,
       "center": {
         "lat": 46.495746624331325,
         "lng": 11.758320765686541
@@ -1144,6 +1271,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8771429890280673
     },
     {
+      "trackPointId": 1344,
       "center": {
         "lat": 46.49592088673827,
         "lng": 11.758127666210227
@@ -1153,6 +1281,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8324034220474185
     },
     {
+      "trackPointId": 1345,
       "center": {
         "lat": 46.495508826915504,
         "lng": 11.757431796566166
@@ -1162,6 +1291,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7833963230529091
     },
     {
+      "trackPointId": 1346,
       "center": {
         "lat": 46.4949765811748,
         "lng": 11.756708656599136
@@ -1171,6 +1301,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7051174855178102
     },
     {
+      "trackPointId": 1347,
       "center": {
         "lat": 46.49463806086789,
         "lng": 11.756391100099474
@@ -1180,6 +1311,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6718921971551202
     },
     {
+      "trackPointId": 1351,
       "center": {
         "lat": 46.49466789573276,
         "lng": 11.756076667121508
@@ -1189,6 +1321,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6596927219521753
     },
     {
+      "trackPointId": 1352,
       "center": {
         "lat": 46.495366269085295,
         "lng": 11.756050004548396
@@ -1198,6 +1331,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6925040995802618
     },
     {
+      "trackPointId": 1364,
       "center": {
         "lat": 46.49451889058908,
         "lng": 11.756439357561954
@@ -1207,6 +1341,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6620165480170563
     },
     {
+      "trackPointId": 1365,
       "center": {
         "lat": 46.494511371997085,
         "lng": 11.756412977452072
@@ -1216,6 +1351,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7139718298234605
     },
     {
+      "trackPointId": 1366,
       "center": {
         "lat": 46.49455532459327,
         "lng": 11.756490126645208
@@ -1225,6 +1361,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7149832322176932
     },
     {
+      "trackPointId": 1367,
       "center": {
         "lat": 46.49450486841773,
         "lng": 11.75641831839851
@@ -1234,6 +1371,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6791843882620712
     },
     {
+      "trackPointId": 1368,
       "center": {
         "lat": 46.4945112029479,
         "lng": 11.75642162139992
@@ -1243,6 +1381,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6713255291355064
     },
     {
+      "trackPointId": 1411,
       "center": {
         "lat": 46.49502379121353,
         "lng": 11.753492836199445
@@ -1252,6 +1391,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7056039928782118
     },
     {
+      "trackPointId": 1412,
       "center": {
         "lat": 46.495021907272196,
         "lng": 11.753348313174605
@@ -1261,6 +1401,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7484346710941918
     },
     {
+      "trackPointId": 1413,
       "center": {
         "lat": 46.49472633742084,
         "lng": 11.753625183217828
@@ -1270,6 +1411,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7622575462133404
     },
     {
+      "trackPointId": 1414,
       "center": {
         "lat": 46.49443809334626,
         "lng": 11.753852948262647
@@ -1279,6 +1421,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7667843247349936
     },
     {
+      "trackPointId": 1415,
       "center": {
         "lat": 46.49454690357323,
         "lng": 11.753847821673
@@ -1288,6 +1431,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7493451571471681
     },
     {
+      "trackPointId": 1416,
       "center": {
         "lat": 46.49554395562854,
         "lng": 11.75603381318617
@@ -1297,6 +1441,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8076974695260734
     },
     {
+      "trackPointId": 1417,
       "center": {
         "lat": 46.49573770606252,
         "lng": 11.756521686166689
@@ -1306,6 +1451,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9023723855317135
     },
     {
+      "trackPointId": 1418,
       "center": {
         "lat": 46.49576828787474,
         "lng": 11.75659027241934
@@ -1315,6 +1461,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7388497453921494
     },
     {
+      "trackPointId": 1419,
       "center": {
         "lat": 46.49567125485484,
         "lng": 11.756380756669195
@@ -1324,6 +1471,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8683742432259851
     },
     {
+      "trackPointId": 1420,
       "center": {
         "lat": 46.49559050480965,
         "lng": 11.756157795758243
@@ -1333,6 +1481,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9172491172337282
     },
     {
+      "trackPointId": 1421,
       "center": {
         "lat": 46.495688698053904,
         "lng": 11.756370711089945
@@ -1342,6 +1491,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9568608167497881
     },
     {
+      "trackPointId": 1422,
       "center": {
         "lat": 46.49560109621003,
         "lng": 11.756165264765158
@@ -1351,6 +1501,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9675802697730023
     },
     {
+      "trackPointId": 1423,
       "center": {
         "lat": 46.494508426869324,
         "lng": 11.753907462570078
@@ -1360,6 +1511,7 @@ calculatedDataFetchedCallback({
       "r2": 0.981089902745499
     },
     {
+      "trackPointId": 1424,
       "center": {
         "lat": 46.49456885089678,
         "lng": 11.753857835715948
@@ -1369,6 +1521,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9778469983385205
     },
     {
+      "trackPointId": 1425,
       "center": {
         "lat": 46.49468141945403,
         "lng": 11.753767992614668
@@ -1378,6 +1531,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9823899139613105
     },
     {
+      "trackPointId": 1426,
       "center": {
         "lat": 46.49568597506978,
         "lng": 11.756079793055841
@@ -1387,6 +1541,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9905303321120693
     },
     {
+      "trackPointId": 1427,
       "center": {
         "lat": 46.49561859047477,
         "lng": 11.755798693217155
@@ -1396,6 +1551,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9937893846286252
     },
     {
+      "trackPointId": 1428,
       "center": {
         "lat": 46.495034848509405,
         "lng": 11.75385099443204
@@ -1405,6 +1561,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9779960517238401
     },
     {
+      "trackPointId": 1429,
       "center": {
         "lat": 46.49511753721485,
         "lng": 11.75390694714923
@@ -1414,6 +1571,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9661753006454784
     },
     {
+      "trackPointId": 1430,
       "center": {
         "lat": 46.49561737038536,
         "lng": 11.755597449373528
@@ -1423,6 +1581,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9247565982914945
     },
     {
+      "trackPointId": 1431,
       "center": {
         "lat": 46.49568625184843,
         "lng": 11.755846456509417
@@ -1432,6 +1591,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8789269354756425
     },
     {
+      "trackPointId": 1432,
       "center": {
         "lat": 46.49553111898473,
         "lng": 11.755433615108172
@@ -1441,6 +1601,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7650570453946927
     },
     {
+      "trackPointId": 1433,
       "center": {
         "lat": 46.495119698451624,
         "lng": 11.753487977342113
@@ -1450,6 +1611,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8545453041578366
     },
     {
+      "trackPointId": 1434,
       "center": {
         "lat": 46.49557816146368,
         "lng": 11.755077777332096
@@ -1459,6 +1621,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8927778019824341
     },
     {
+      "trackPointId": 1435,
       "center": {
         "lat": 46.495814336502505,
         "lng": 11.755888321848051
@@ -1468,6 +1631,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9196464684039843
     },
     {
+      "trackPointId": 1436,
       "center": {
         "lat": 46.49587284880105,
         "lng": 11.755861883297559
@@ -1477,6 +1641,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9261153805042008
     },
     {
+      "trackPointId": 1437,
       "center": {
         "lat": 46.49584581296984,
         "lng": 11.755601768730804
@@ -1486,6 +1651,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9162664640220031
     },
     {
+      "trackPointId": 1438,
       "center": {
         "lat": 46.49600955256311,
         "lng": 11.75614394291495
@@ -1495,6 +1661,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9006726353948746
     },
     {
+      "trackPointId": 1439,
       "center": {
         "lat": 46.496012275761764,
         "lng": 11.756243373464459
@@ -1504,6 +1671,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8125837637014808
     },
     {
+      "trackPointId": 1440,
       "center": {
         "lat": 46.494083437322175,
         "lng": 11.755098756620182
@@ -1513,6 +1681,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6873458066098785
     },
     {
+      "trackPointId": 1441,
       "center": {
         "lat": 46.49396276470816,
         "lng": 11.755890296297695
@@ -1522,6 +1691,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6851118539124001
     },
     {
+      "trackPointId": 1442,
       "center": {
         "lat": 46.49390864404993,
         "lng": 11.75630784535112
@@ -1531,6 +1701,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7210392441599722
     },
     {
+      "trackPointId": 1443,
       "center": {
         "lat": 46.495009288285644,
         "lng": 11.75620921406626
@@ -1540,6 +1711,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6581913058432236
     },
     {
+      "trackPointId": 1444,
       "center": {
         "lat": 46.49595769540805,
         "lng": 11.756440180314756
@@ -1549,6 +1721,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6763137653546674
     },
     {
+      "trackPointId": 1445,
       "center": {
         "lat": 46.496125829186084,
         "lng": 11.756504267099794
@@ -1558,6 +1731,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7774738698961856
     },
     {
+      "trackPointId": 1446,
       "center": {
         "lat": 46.496158589738236,
         "lng": 11.756519340595014
@@ -1567,6 +1741,7 @@ calculatedDataFetchedCallback({
       "r2": 0.862759037986192
     },
     {
+      "trackPointId": 1447,
       "center": {
         "lat": 46.49620021787351,
         "lng": 11.75651918392335
@@ -1576,6 +1751,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9266763419606854
     },
     {
+      "trackPointId": 1448,
       "center": {
         "lat": 46.49614374345409,
         "lng": 11.75648870181941
@@ -1585,6 +1761,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9027557980408022
     },
     {
+      "trackPointId": 1449,
       "center": {
         "lat": 46.49442697343866,
         "lng": 11.756209546135825
@@ -1594,6 +1771,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8930477647431418
     },
     {
+      "trackPointId": 1450,
       "center": {
         "lat": 46.49394315008328,
         "lng": 11.755857628963293
@@ -1603,6 +1781,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8251748895054851
     },
     {
+      "trackPointId": 1451,
       "center": {
         "lat": 46.49446434946113,
         "lng": 11.754875147040947
@@ -1612,6 +1791,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7072951294973095
     },
     {
+      "trackPointId": 1454,
       "center": {
         "lat": 46.49646564016297,
         "lng": 11.755211876963896
@@ -1621,6 +1801,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7757328938499566
     },
     {
+      "trackPointId": 1458,
       "center": {
         "lat": 46.499237345470014,
         "lng": 11.755964991585476
@@ -1630,6 +1811,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7440185266718471
     },
     {
+      "trackPointId": 1459,
       "center": {
         "lat": 46.49923823967044,
         "lng": 11.756292193813735
@@ -1639,6 +1821,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8410109678716967
     },
     {
+      "trackPointId": 1460,
       "center": {
         "lat": 46.49699091537219,
         "lng": 11.756293524011346
@@ -1648,6 +1831,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6801287573205398
     },
     {
+      "trackPointId": 1479,
       "center": {
         "lat": 46.49409670319712,
         "lng": 11.75652299861875
@@ -1657,6 +1841,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6770287848591552
     },
     {
+      "trackPointId": 1480,
       "center": {
         "lat": 46.49406285833118,
         "lng": 11.756781488458824
@@ -1666,6 +1851,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7871235874145119
     },
     {
+      "trackPointId": 1481,
       "center": {
         "lat": 46.494110443498634,
         "lng": 11.756966713391389
@@ -1675,6 +1861,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6619020058035442
     },
     {
+      "trackPointId": 1483,
       "center": {
         "lat": 46.494179282738365,
         "lng": 11.756600870694685
@@ -1684,6 +1871,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7196394497998386
     },
     {
+      "trackPointId": 1484,
       "center": {
         "lat": 46.49418539122449,
         "lng": 11.756014196598274
@@ -1693,6 +1881,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8104313499085303
     },
     {
+      "trackPointId": 1535,
       "center": {
         "lat": 46.496945051244744,
         "lng": 11.755347732799468
@@ -1702,6 +1891,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8467245669735833
     },
     {
+      "trackPointId": 1536,
       "center": {
         "lat": 46.4969379639049,
         "lng": 11.755162193907841
@@ -1711,6 +1901,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9249242134609762
     },
     {
+      "trackPointId": 1537,
       "center": {
         "lat": 46.49716520100657,
         "lng": 11.754519992473243
@@ -1720,6 +1911,7 @@ calculatedDataFetchedCallback({
       "r2": 0.929363525587121
     },
     {
+      "trackPointId": 1538,
       "center": {
         "lat": 46.49847844513473,
         "lng": 11.75407492591201
@@ -1729,6 +1921,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8594280033852816
     },
     {
+      "trackPointId": 1539,
       "center": {
         "lat": 46.50036705837635,
         "lng": 11.756213296036513
@@ -1738,6 +1931,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7432593188673262
     },
     {
+      "trackPointId": 1540,
       "center": {
         "lat": 46.500482915850434,
         "lng": 11.75752376819331
@@ -1747,6 +1941,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6510886174361616
     },
     {
+      "trackPointId": 1542,
       "center": {
         "lat": 46.5004602500277,
         "lng": 11.757776717367603
@@ -1756,6 +1951,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7288303107902335
     },
     {
+      "trackPointId": 1543,
       "center": {
         "lat": 46.50048872572771,
         "lng": 11.757610140194716
@@ -1765,6 +1961,7 @@ calculatedDataFetchedCallback({
       "r2": 0.803254587290311
     },
     {
+      "trackPointId": 1544,
       "center": {
         "lat": 46.500503754506454,
         "lng": 11.757526879441897
@@ -1774,6 +1971,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8775569919090028
     },
     {
+      "trackPointId": 1545,
       "center": {
         "lat": 46.500525992834895,
         "lng": 11.757323308198217
@@ -1783,6 +1981,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9209375768240887
     },
     {
+      "trackPointId": 1546,
       "center": {
         "lat": 46.50051648462611,
         "lng": 11.757296517300091
@@ -1792,6 +1991,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8650276734459105
     },
     {
+      "trackPointId": 1547,
       "center": {
         "lat": 46.50039179964293,
         "lng": 11.75818912558843
@@ -1801,6 +2001,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7402297199353347
     },
     {
+      "trackPointId": 1550,
       "center": {
         "lat": 46.49849351816625,
         "lng": 11.759484163181677
@@ -1810,6 +2011,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7983171841686573
     },
     {
+      "trackPointId": 1551,
       "center": {
         "lat": 46.49882819239958,
         "lng": 11.759830259789268
@@ -1819,6 +2021,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6966296594431601
     },
     {
+      "trackPointId": 1553,
       "center": {
         "lat": 46.497992226660735,
         "lng": 11.757804876642496
@@ -1828,6 +2031,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7370982939501407
     },
     {
+      "trackPointId": 1554,
       "center": {
         "lat": 46.49753152412064,
         "lng": 11.7583832249446
@@ -1837,6 +2041,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8730338239122095
     },
     {
+      "trackPointId": 1555,
       "center": {
         "lat": 46.49713312719717,
         "lng": 11.75830786251696
@@ -1846,6 +2051,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9477897723042785
     },
     {
+      "trackPointId": 1556,
       "center": {
         "lat": 46.49716178565404,
         "lng": 11.758054414982917
@@ -1855,6 +2061,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9613107342516056
     },
     {
+      "trackPointId": 1557,
       "center": {
         "lat": 46.497380321467396,
         "lng": 11.757920947919954
@@ -1864,6 +2071,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9119790081409488
     },
     {
+      "trackPointId": 1558,
       "center": {
         "lat": 46.49747953922547,
         "lng": 11.757889744360313
@@ -1873,6 +2081,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8696923494255511
     },
     {
+      "trackPointId": 1559,
       "center": {
         "lat": 46.49740990928636,
         "lng": 11.757870896225889
@@ -1882,6 +2091,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8418634620490203
     },
     {
+      "trackPointId": 1560,
       "center": {
         "lat": 46.49711322574298,
         "lng": 11.757866297239296
@@ -1891,6 +2101,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8322004161572647
     },
     {
+      "trackPointId": 1561,
       "center": {
         "lat": 46.49724801784223,
         "lng": 11.757863601779114
@@ -1900,6 +2111,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8611605742936759
     },
     {
+      "trackPointId": 1562,
       "center": {
         "lat": 46.49811631667438,
         "lng": 11.757873568849396
@@ -1909,6 +2121,7 @@ calculatedDataFetchedCallback({
       "r2": 0.69912226584618
     },
     {
+      "trackPointId": 1619,
       "center": {
         "lat": 46.50042118021683,
         "lng": 11.756937282645197
@@ -1918,6 +2131,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6998607384701704
     },
     {
+      "trackPointId": 1794,
       "center": {
         "lat": 46.504086871432825,
         "lng": 11.735279631150924
@@ -1927,6 +2141,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6862405840842419
     },
     {
+      "trackPointId": 1817,
       "center": {
         "lat": 46.50621896345581,
         "lng": 11.733379243134104
@@ -1936,6 +2151,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7263676022735459
     },
     {
+      "trackPointId": 1818,
       "center": {
         "lat": 46.50562346310693,
         "lng": 11.733301103563198
@@ -1945,6 +2161,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8619712140769851
     },
     {
+      "trackPointId": 1819,
       "center": {
         "lat": 46.505048310480554,
         "lng": 11.733528736813279
@@ -1954,6 +2171,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9221827201781317
     },
     {
+      "trackPointId": 1820,
       "center": {
         "lat": 46.504999640255726,
         "lng": 11.73346692004563
@@ -1963,6 +2181,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9547796969485981
     },
     {
+      "trackPointId": 1821,
       "center": {
         "lat": 46.50502514066149,
         "lng": 11.733345837611324
@@ -1972,6 +2191,7 @@ calculatedDataFetchedCallback({
       "r2": 0.970197976039488
     },
     {
+      "trackPointId": 1822,
       "center": {
         "lat": 46.50505080393312,
         "lng": 11.733338795178513
@@ -1981,6 +2201,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9435593195044427
     },
     {
+      "trackPointId": 1823,
       "center": {
         "lat": 46.50498298907361,
         "lng": 11.73368445699933
@@ -1990,6 +2211,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8989832122784988
     },
     {
+      "trackPointId": 1824,
       "center": {
         "lat": 46.50490478972686,
         "lng": 11.734021358110807
@@ -1999,6 +2221,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8769051407224763
     },
     {
+      "trackPointId": 1825,
       "center": {
         "lat": 46.50473156735093,
         "lng": 11.734668506122604
@@ -2008,6 +2231,7 @@ calculatedDataFetchedCallback({
       "r2": 0.835988551373642
     },
     {
+      "trackPointId": 1826,
       "center": {
         "lat": 46.50439014336823,
         "lng": 11.735861474866676
@@ -2017,6 +2241,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8886063018974549
     },
     {
+      "trackPointId": 1827,
       "center": {
         "lat": 46.50452471014465,
         "lng": 11.735365546690586
@@ -2026,6 +2251,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9034356692090281
     },
     {
+      "trackPointId": 1903,
       "center": {
         "lat": 46.50808572877756,
         "lng": 11.738198747145203
@@ -2035,6 +2261,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7710647167722285
     },
     {
+      "trackPointId": 1904,
       "center": {
         "lat": 46.50851475127062,
         "lng": 11.739117623885011
@@ -2044,6 +2271,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7970013284238671
     },
     {
+      "trackPointId": 1905,
       "center": {
         "lat": 46.50857881512876,
         "lng": 11.739048615983886
@@ -2053,6 +2281,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7009757031334465
     },
     {
+      "trackPointId": 1907,
       "center": {
         "lat": 46.50879801799847,
         "lng": 11.738831629843974
@@ -2062,6 +2291,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6810328019132157
     },
     {
+      "trackPointId": 1908,
       "center": {
         "lat": 46.50810015966644,
         "lng": 11.7376531320697
@@ -2071,6 +2301,7 @@ calculatedDataFetchedCallback({
       "r2": 0.744012320852657
     },
     {
+      "trackPointId": 1909,
       "center": {
         "lat": 46.50788299820558,
         "lng": 11.737281417040874
@@ -2080,6 +2311,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7949545085017601
     },
     {
+      "trackPointId": 1910,
       "center": {
         "lat": 46.50785285800954,
         "lng": 11.737259700077884
@@ -2089,6 +2321,7 @@ calculatedDataFetchedCallback({
       "r2": 0.828437999876365
     },
     {
+      "trackPointId": 1911,
       "center": {
         "lat": 46.508169818146854,
         "lng": 11.737887133399619
@@ -2098,6 +2331,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8592500391468
     },
     {
+      "trackPointId": 1912,
       "center": {
         "lat": 46.50874031807772,
         "lng": 11.738857675852577
@@ -2107,6 +2341,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8757408568599923
     },
     {
+      "trackPointId": 1913,
       "center": {
         "lat": 46.508479318648135,
         "lng": 11.739078424410494
@@ -2116,6 +2351,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8961326388833845
     },
     {
+      "trackPointId": 1914,
       "center": {
         "lat": 46.508550521225025,
         "lng": 11.73894595428232
@@ -2125,6 +2361,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8827622275594571
     },
     {
+      "trackPointId": 1915,
       "center": {
         "lat": 46.50871362124639,
         "lng": 11.738684372520382
@@ -2134,6 +2371,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8487512648523761
     },
     {
+      "trackPointId": 1916,
       "center": {
         "lat": 46.50783029089951,
         "lng": 11.736937577503497
@@ -2143,6 +2381,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7965769944896853
     },
     {
+      "trackPointId": 1917,
       "center": {
         "lat": 46.50738422846161,
         "lng": 11.736271469020402
@@ -2152,6 +2391,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7327668128545975
     },
     {
+      "trackPointId": 1918,
       "center": {
         "lat": 46.50732303805433,
         "lng": 11.736184809928812
@@ -2161,6 +2401,7 @@ calculatedDataFetchedCallback({
       "r2": 0.692495713548092
     },
     {
+      "trackPointId": 1919,
       "center": {
         "lat": 46.50732079603869,
         "lng": 11.736200570248005
@@ -2170,6 +2411,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7785830838968727
     },
     {
+      "trackPointId": 1920,
       "center": {
         "lat": 46.50735820453606,
         "lng": 11.736256557790082
@@ -2179,6 +2421,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6508982978192874
     },
     {
+      "trackPointId": 1923,
       "center": {
         "lat": 46.509372285994196,
         "lng": 11.738155571979604
@@ -2188,6 +2431,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7257116688580396
     },
     {
+      "trackPointId": 1924,
       "center": {
         "lat": 46.50918556635119,
         "lng": 11.739051050122567
@@ -2197,6 +2441,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6707093038536461
     },
     {
+      "trackPointId": 1932,
       "center": {
         "lat": 46.507665978374426,
         "lng": 11.736344398972129
@@ -2206,6 +2451,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6734559861512228
     },
     {
+      "trackPointId": 1939,
       "center": {
         "lat": 46.509727759457384,
         "lng": 11.737345812015766
@@ -2215,6 +2461,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8177624694311197
     },
     {
+      "trackPointId": 1940,
       "center": {
         "lat": 46.509431737419106,
         "lng": 11.737139449697938
@@ -2224,6 +2471,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8642066320960899
     },
     {
+      "trackPointId": 1941,
       "center": {
         "lat": 46.50946294063866,
         "lng": 11.737040215149442
@@ -2233,6 +2481,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9038698324134913
     },
     {
+      "trackPointId": 1942,
       "center": {
         "lat": 46.50862403720001,
         "lng": 11.736714464789616
@@ -2242,6 +2491,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9673759133297749
     },
     {
+      "trackPointId": 1943,
       "center": {
         "lat": 46.5083567197573,
         "lng": 11.736669340022209
@@ -2251,6 +2501,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9542609358003938
     },
     {
+      "trackPointId": 1944,
       "center": {
         "lat": 46.50991914660978,
         "lng": 11.737807959821199
@@ -2260,6 +2511,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9010871568716323
     },
     {
+      "trackPointId": 1945,
       "center": {
         "lat": 46.50940453625065,
         "lng": 11.738757158308369
@@ -2269,6 +2521,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8527834106709646
     },
     {
+      "trackPointId": 1946,
       "center": {
         "lat": 46.50783408300424,
         "lng": 11.736746344965445
@@ -2278,6 +2531,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8724848456113309
     },
     {
+      "trackPointId": 1947,
       "center": {
         "lat": 46.50899095270399,
         "lng": 11.739080102329805
@@ -2287,6 +2541,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8251416454532219
     },
     {
+      "trackPointId": 1987,
       "center": {
         "lat": 46.50566566539424,
         "lng": 11.737159398698557
@@ -2296,6 +2551,7 @@ calculatedDataFetchedCallback({
       "r2": 0.755156236840204
     },
     {
+      "trackPointId": 1988,
       "center": {
         "lat": 46.50672401730979,
         "lng": 11.735757391122057
@@ -2305,6 +2561,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7069917553993947
     },
     {
+      "trackPointId": 1989,
       "center": {
         "lat": 46.506813232382605,
         "lng": 11.735634072563688
@@ -2314,6 +2571,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7365042757031913
     },
     {
+      "trackPointId": 1997,
       "center": {
         "lat": 46.5044724183298,
         "lng": 11.733203277388101
@@ -2323,6 +2581,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6790713773090433
     },
     {
+      "trackPointId": 1998,
       "center": {
         "lat": 46.50564860893076,
         "lng": 11.731609744519693
@@ -2332,6 +2591,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7168270184167285
     },
     {
+      "trackPointId": 1999,
       "center": {
         "lat": 46.50695472111413,
         "lng": 11.731384147021997
@@ -2341,6 +2601,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6969791976373184
     },
     {
+      "trackPointId": 2000,
       "center": {
         "lat": 46.50706015920072,
         "lng": 11.731417210709004
@@ -2350,6 +2611,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6833557092793043
     },
     {
+      "trackPointId": 2001,
       "center": {
         "lat": 46.50704794897418,
         "lng": 11.731558749912619
@@ -2359,6 +2621,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7665783244165403
     },
     {
+      "trackPointId": 2002,
       "center": {
         "lat": 46.507029880099665,
         "lng": 11.731396251686812
@@ -2368,6 +2631,7 @@ calculatedDataFetchedCallback({
       "r2": 0.902951609484992
     },
     {
+      "trackPointId": 2003,
       "center": {
         "lat": 46.5069865059617,
         "lng": 11.731568665332885
@@ -2377,6 +2641,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9473151662436637
     },
     {
+      "trackPointId": 2004,
       "center": {
         "lat": 46.50692289296596,
         "lng": 11.7319129568911
@@ -2386,6 +2651,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9402887187454482
     },
     {
+      "trackPointId": 2005,
       "center": {
         "lat": 46.50693319178374,
         "lng": 11.73180243809449
@@ -2395,6 +2661,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9041015596746884
     },
     {
+      "trackPointId": 2006,
       "center": {
         "lat": 46.50700366102811,
         "lng": 11.731480972365263
@@ -2404,6 +2671,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8557588972450675
     },
     {
+      "trackPointId": 2007,
       "center": {
         "lat": 46.50703456961358,
         "lng": 11.731485569339853
@@ -2413,6 +2681,7 @@ calculatedDataFetchedCallback({
       "r2": 0.839043863466529
     },
     {
+      "trackPointId": 2008,
       "center": {
         "lat": 46.506792965832496,
         "lng": 11.732434361172919
@@ -2422,6 +2691,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7493406203749357
     },
     {
+      "trackPointId": 2009,
       "center": {
         "lat": 46.50672059107717,
         "lng": 11.732600824729987
@@ -2431,6 +2701,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8995794422462849
     },
     {
+      "trackPointId": 2010,
       "center": {
         "lat": 46.506725653103196,
         "lng": 11.732571648623566
@@ -2440,6 +2711,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9289536799824236
     },
     {
+      "trackPointId": 2011,
       "center": {
         "lat": 46.5067390458233,
         "lng": 11.732489263669324
@@ -2449,6 +2721,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9210534419411628
     },
     {
+      "trackPointId": 2012,
       "center": {
         "lat": 46.507051829066874,
         "lng": 11.731489705034045
@@ -2458,6 +2731,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8256244474892125
     },
     {
+      "trackPointId": 2013,
       "center": {
         "lat": 46.50707953681672,
         "lng": 11.731518282974392
@@ -2467,6 +2741,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7362514914598184
     },
     {
+      "trackPointId": 2014,
       "center": {
         "lat": 46.50715204152769,
         "lng": 11.731507334054822
@@ -2476,6 +2751,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7523738408416986
     },
     {
+      "trackPointId": 2015,
       "center": {
         "lat": 46.50715391419523,
         "lng": 11.731516708897418
@@ -2485,6 +2761,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8231793560993201
     },
     {
+      "trackPointId": 2016,
       "center": {
         "lat": 46.507161906419206,
         "lng": 11.731771652713173
@@ -2494,6 +2771,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8454044222799393
     },
     {
+      "trackPointId": 2017,
       "center": {
         "lat": 46.50699706458191,
         "lng": 11.731810293132167
@@ -2503,6 +2781,7 @@ calculatedDataFetchedCallback({
       "r2": 0.843882206060499
     },
     {
+      "trackPointId": 2018,
       "center": {
         "lat": 46.5078669645054,
         "lng": 11.732977081505815
@@ -2512,6 +2791,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7987891349764409
     },
     {
+      "trackPointId": 2370,
       "center": {
         "lat": 46.48492426975961,
         "lng": 11.714613330149458
@@ -2521,6 +2801,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8781173475070179
     },
     {
+      "trackPointId": 2371,
       "center": {
         "lat": 46.48366287783868,
         "lng": 11.71500288048311
@@ -2530,6 +2811,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8005063867331781
     },
     {
+      "trackPointId": 2372,
       "center": {
         "lat": 46.482212201971116,
         "lng": 11.715912671486699
@@ -2539,6 +2821,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8233542007385004
     },
     {
+      "trackPointId": 2373,
       "center": {
         "lat": 46.48375885779145,
         "lng": 11.715191735414377
@@ -2548,6 +2831,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6884342860664034
     },
     {
+      "trackPointId": 2565,
       "center": {
         "lat": 46.480866887670196,
         "lng": 11.694144554703616
@@ -2557,6 +2841,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8512944227141032
     },
     {
+      "trackPointId": 2566,
       "center": {
         "lat": 46.48083440929052,
         "lng": 11.694618843301859
@@ -2566,6 +2851,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9516354961051591
     },
     {
+      "trackPointId": 2567,
       "center": {
         "lat": 46.481034754933255,
         "lng": 11.694239967807864
@@ -2575,6 +2861,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9785434349260226
     },
     {
+      "trackPointId": 2568,
       "center": {
         "lat": 46.48105643121699,
         "lng": 11.694252603201864
@@ -2584,6 +2871,7 @@ calculatedDataFetchedCallback({
       "r2": 0.984960336285054
     },
     {
+      "trackPointId": 2569,
       "center": {
         "lat": 46.48072087074716,
         "lng": 11.694959361539128
@@ -2593,6 +2881,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9703545554598036
     },
     {
+      "trackPointId": 2570,
       "center": {
         "lat": 46.48009808089324,
         "lng": 11.696919066334626
@@ -2602,6 +2891,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8935638050908253
     },
     {
+      "trackPointId": 2571,
       "center": {
         "lat": 46.4799670021354,
         "lng": 11.697393690988559
@@ -2611,6 +2901,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8303507376429828
     },
     {
+      "trackPointId": 2572,
       "center": {
         "lat": 46.47998989365664,
         "lng": 11.697433154435123
@@ -2620,6 +2911,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8044931255345389
     },
     {
+      "trackPointId": 2573,
       "center": {
         "lat": 46.479710502503806,
         "lng": 11.697079017142988
@@ -2629,6 +2921,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7647063724202993
     },
     {
+      "trackPointId": 2574,
       "center": {
         "lat": 46.47997818532493,
         "lng": 11.697395580314192
@@ -2638,6 +2931,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7323373599435615
     },
     {
+      "trackPointId": 2575,
       "center": {
         "lat": 46.480026300952304,
         "lng": 11.69744728430368
@@ -2647,6 +2941,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6810409986838868
     },
     {
+      "trackPointId": 2576,
       "center": {
         "lat": 46.48004219898648,
         "lng": 11.697446390460472
@@ -2656,6 +2951,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7242453285618848
     },
     {
+      "trackPointId": 2577,
       "center": {
         "lat": 46.48004581312078,
         "lng": 11.697422295494928
@@ -2665,6 +2961,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8073676407033944
     },
     {
+      "trackPointId": 2578,
       "center": {
         "lat": 46.48005430824923,
         "lng": 11.69741107372329
@@ -2674,6 +2971,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8715992669960332
     },
     {
+      "trackPointId": 2579,
       "center": {
         "lat": 46.48004097228676,
         "lng": 11.697418512877004
@@ -2683,6 +2981,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9014398351241806
     },
     {
+      "trackPointId": 2580,
       "center": {
         "lat": 46.48002969922895,
         "lng": 11.697438544027204
@@ -2692,6 +2991,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8781468783491851
     },
     {
+      "trackPointId": 2581,
       "center": {
         "lat": 46.47801925332698,
         "lng": 11.69580260306564
@@ -2701,6 +3001,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6997907016528444
     },
     {
+      "trackPointId": 2592,
       "center": {
         "lat": 46.47998771455184,
         "lng": 11.70045850417944
@@ -2710,6 +3011,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6535404464609604
     },
     {
+      "trackPointId": 2603,
       "center": {
         "lat": 46.480533706877054,
         "lng": 11.697739095300859
@@ -2719,6 +3021,7 @@ calculatedDataFetchedCallback({
       "r2": 0.763778164809757
     },
     {
+      "trackPointId": 2604,
       "center": {
         "lat": 46.48054067903018,
         "lng": 11.697751077835784
@@ -2728,6 +3031,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8267822791812628
     },
     {
+      "trackPointId": 2605,
       "center": {
         "lat": 46.480538836850776,
         "lng": 11.697752094226074
@@ -2737,6 +3041,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8279571739776411
     },
     {
+      "trackPointId": 2606,
       "center": {
         "lat": 46.48052309227689,
         "lng": 11.697739003579983
@@ -2746,6 +3051,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8347701241055457
     },
     {
+      "trackPointId": 2607,
       "center": {
         "lat": 46.480513799432465,
         "lng": 11.697718301569054
@@ -2755,6 +3061,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9186674816171175
     },
     {
+      "trackPointId": 2608,
       "center": {
         "lat": 46.4805071380241,
         "lng": 11.697695515789947
@@ -2764,6 +3071,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8804687582695265
     },
     {
+      "trackPointId": 2609,
       "center": {
         "lat": 46.480498276339404,
         "lng": 11.697684349702357
@@ -2773,6 +3081,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8607561143661304
     },
     {
+      "trackPointId": 2610,
       "center": {
         "lat": 46.48049725723363,
         "lng": 11.697652859189402
@@ -2782,6 +3091,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8977672387650173
     },
     {
+      "trackPointId": 2611,
       "center": {
         "lat": 46.48049052235905,
         "lng": 11.6976838434159
@@ -2791,6 +3101,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8632770804207159
     },
     {
+      "trackPointId": 2612,
       "center": {
         "lat": 46.480464934560935,
         "lng": 11.697694602988326
@@ -2800,6 +3111,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7219258283505865
     },
     {
+      "trackPointId": 2619,
       "center": {
         "lat": 46.48009459396877,
         "lng": 11.69775209484298
@@ -2809,6 +3121,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7285686771478415
     },
     {
+      "trackPointId": 2645,
       "center": {
         "lat": 46.48102411933901,
         "lng": 11.697533414877931
@@ -2818,6 +3131,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6564785779901566
     },
     {
+      "trackPointId": 2646,
       "center": {
         "lat": 46.480940028665245,
         "lng": 11.697777054932608
@@ -2827,6 +3141,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8080092503633463
     },
     {
+      "trackPointId": 2655,
       "center": {
         "lat": 46.47985724875568,
         "lng": 11.695547318567533
@@ -2836,6 +3151,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6559825606239273
     },
     {
+      "trackPointId": 2656,
       "center": {
         "lat": 46.480401702927274,
         "lng": 11.695554068210898
@@ -2845,6 +3161,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7598243295185791
     },
     {
+      "trackPointId": 2657,
       "center": {
         "lat": 46.48049126592708,
         "lng": 11.695628202196133
@@ -2854,6 +3171,7 @@ calculatedDataFetchedCallback({
       "r2": 0.867993401813335
     },
     {
+      "trackPointId": 2658,
       "center": {
         "lat": 46.480034455139666,
         "lng": 11.697831768810241
@@ -2863,6 +3181,7 @@ calculatedDataFetchedCallback({
       "r2": 0.926429429900046
     },
     {
+      "trackPointId": 2659,
       "center": {
         "lat": 46.47979520571054,
         "lng": 11.698936444781161
@@ -2872,6 +3191,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8924585066270518
     },
     {
+      "trackPointId": 2660,
       "center": {
         "lat": 46.47983947934658,
         "lng": 11.698557401829108
@@ -2881,6 +3201,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7375868318234444
     },
     {
+      "trackPointId": 2663,
       "center": {
         "lat": 46.480954684255224,
         "lng": 11.696195295819788
@@ -2890,6 +3211,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6713349358267573
     },
     {
+      "trackPointId": 2664,
       "center": {
         "lat": 46.4818167387338,
         "lng": 11.698978465028615
@@ -2899,6 +3221,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7645016301629608
     },
     {
+      "trackPointId": 2665,
       "center": {
         "lat": 46.48169680589269,
         "lng": 11.699346278020256
@@ -2908,6 +3231,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7770373144453434
     },
     {
+      "trackPointId": 2666,
       "center": {
         "lat": 46.48168899488477,
         "lng": 11.698249283238098
@@ -2917,6 +3241,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6602988671063357
     },
     {
+      "trackPointId": 2997,
       "center": {
         "lat": 46.46171937747831,
         "lng": 11.671274878328202
@@ -2926,6 +3251,7 @@ calculatedDataFetchedCallback({
       "r2": 0.810051078932289
     },
     {
+      "trackPointId": 3077,
       "center": {
         "lat": 46.46216109960325,
         "lng": 11.671303595538793
@@ -2935,6 +3261,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6621853887989786
     },
     {
+      "trackPointId": 3078,
       "center": {
         "lat": 46.46217038901126,
         "lng": 11.671310527429522
@@ -2944,6 +3271,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7582664993333257
     },
     {
+      "trackPointId": 3308,
       "center": {
         "lat": 46.4518961841711,
         "lng": 11.661345051750022
@@ -2953,6 +3281,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7654127301121392
     },
     {
+      "trackPointId": 3309,
       "center": {
         "lat": 46.45167863040312,
         "lng": 11.66221792572395
@@ -2962,6 +3291,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8423328857726786
     },
     {
+      "trackPointId": 3310,
       "center": {
         "lat": 46.451067162869265,
         "lng": 11.66442080671458
@@ -2971,6 +3301,7 @@ calculatedDataFetchedCallback({
       "r2": 0.809780953936613
     },
     {
+      "trackPointId": 3816,
       "center": {
         "lat": 46.431382795603994,
         "lng": 11.654837297333826
@@ -2980,6 +3311,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6718935217279172
     },
     {
+      "trackPointId": 3817,
       "center": {
         "lat": 46.43140000607932,
         "lng": 11.652355545070446
@@ -2989,6 +3321,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6936057893327138
     },
     {
+      "trackPointId": 3820,
       "center": {
         "lat": 46.43017745374044,
         "lng": 11.654981485225107
@@ -2998,6 +3331,7 @@ calculatedDataFetchedCallback({
       "r2": 0.895745170193009
     },
     {
+      "trackPointId": 3821,
       "center": {
         "lat": 46.42920232867075,
         "lng": 11.654143008817133
@@ -3007,6 +3341,7 @@ calculatedDataFetchedCallback({
       "r2": 0.853955770411101
     },
     {
+      "trackPointId": 3822,
       "center": {
         "lat": 46.42948387712002,
         "lng": 11.653307315777807
@@ -3016,6 +3351,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7800042913802798
     },
     {
+      "trackPointId": 3823,
       "center": {
         "lat": 46.43048443310561,
         "lng": 11.652134964350784
@@ -3025,6 +3361,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7855257499477902
     },
     {
+      "trackPointId": 3824,
       "center": {
         "lat": 46.43206903330305,
         "lng": 11.651959765152323
@@ -3034,6 +3371,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7672137299617736
     },
     {
+      "trackPointId": 3825,
       "center": {
         "lat": 46.433274609279145,
         "lng": 11.653073015674725
@@ -3043,6 +3381,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8582340034368992
     },
     {
+      "trackPointId": 3826,
       "center": {
         "lat": 46.43363185504952,
         "lng": 11.653700963101524
@@ -3052,6 +3391,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9143367862121421
     },
     {
+      "trackPointId": 3827,
       "center": {
         "lat": 46.431488133239526,
         "lng": 11.655408883924675
@@ -3061,6 +3401,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7202891199786925
     },
     {
+      "trackPointId": 3830,
       "center": {
         "lat": 46.431465720220146,
         "lng": 11.655502929118148
@@ -3070,6 +3411,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8192453996645778
     },
     {
+      "trackPointId": 3831,
       "center": {
         "lat": 46.43145871319101,
         "lng": 11.65534137724616
@@ -3079,6 +3421,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7812640531590374
     },
     {
+      "trackPointId": 4013,
       "center": {
         "lat": 46.42450373223028,
         "lng": 11.640994090614903
@@ -3088,6 +3431,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8261553348347008
     },
     {
+      "trackPointId": 4014,
       "center": {
         "lat": 46.424384138649025,
         "lng": 11.641193290124802
@@ -3097,6 +3441,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6779642061341515
     },
     {
+      "trackPointId": 4015,
       "center": {
         "lat": 46.42362731234378,
         "lng": 11.641966904938773
@@ -3106,6 +3451,7 @@ calculatedDataFetchedCallback({
       "r2": 0.727887529267117
     },
     {
+      "trackPointId": 4016,
       "center": {
         "lat": 46.42394082595858,
         "lng": 11.641599997074282
@@ -3115,6 +3461,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7800310677088054
     },
     {
+      "trackPointId": 4017,
       "center": {
         "lat": 46.42431621325785,
         "lng": 11.641214919077125
@@ -3124,6 +3471,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7603613471690212
     },
     {
+      "trackPointId": 4018,
       "center": {
         "lat": 46.42433896855635,
         "lng": 11.641201286500293
@@ -3133,6 +3481,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7386923843957355
     },
     {
+      "trackPointId": 4049,
       "center": {
         "lat": 46.422504038611265,
         "lng": 11.641873857935288
@@ -3142,6 +3491,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8348208566257664
     },
     {
+      "trackPointId": 4050,
       "center": {
         "lat": 46.422460660457844,
         "lng": 11.641919748671068
@@ -3151,6 +3501,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7590316044601568
     },
     {
+      "trackPointId": 4061,
       "center": {
         "lat": 46.42082579010349,
         "lng": 11.643893269231588
@@ -3160,6 +3511,7 @@ calculatedDataFetchedCallback({
       "r2": 0.686221724391465
     },
     {
+      "trackPointId": 4062,
       "center": {
         "lat": 46.420778038805736,
         "lng": 11.64371178421404
@@ -3169,6 +3521,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7058996167174624
     },
     {
+      "trackPointId": 4065,
       "center": {
         "lat": 46.42149858704743,
         "lng": 11.645502833809386
@@ -3178,6 +3531,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8836846102285425
     },
     {
+      "trackPointId": 4066,
       "center": {
         "lat": 46.42171900898579,
         "lng": 11.645722331920357
@@ -3187,6 +3541,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9241808416453059
     },
     {
+      "trackPointId": 4067,
       "center": {
         "lat": 46.422445111801395,
         "lng": 11.642685015855573
@@ -3196,6 +3551,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9086726534733606
     },
     {
+      "trackPointId": 4068,
       "center": {
         "lat": 46.42244837465335,
         "lng": 11.642460652925804
@@ -3205,6 +3561,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9040875554797414
     },
     {
+      "trackPointId": 4069,
       "center": {
         "lat": 46.42245308055576,
         "lng": 11.642263590990526
@@ -3214,6 +3571,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8667331869538073
     },
     {
+      "trackPointId": 4070,
       "center": {
         "lat": 46.422469663215914,
         "lng": 11.642282925280643
@@ -3223,6 +3581,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8512312382272901
     },
     {
+      "trackPointId": 4071,
       "center": {
         "lat": 46.42247899849116,
         "lng": 11.642300628799154
@@ -3232,6 +3591,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8808992843245257
     },
     {
+      "trackPointId": 4072,
       "center": {
         "lat": 46.42246380019367,
         "lng": 11.64223582734766
@@ -3241,6 +3601,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9045036620404175
     },
     {
+      "trackPointId": 4073,
       "center": {
         "lat": 46.422458432664385,
         "lng": 11.64219285245808
@@ -3250,6 +3611,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9194081916933293
     },
     {
+      "trackPointId": 4074,
       "center": {
         "lat": 46.42244294992683,
         "lng": 11.642115724697717
@@ -3259,6 +3621,7 @@ calculatedDataFetchedCallback({
       "r2": 0.934251645855364
     },
     {
+      "trackPointId": 4075,
       "center": {
         "lat": 46.42242219315951,
         "lng": 11.642043738019657
@@ -3268,6 +3631,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9270347486174573
     },
     {
+      "trackPointId": 4076,
       "center": {
         "lat": 46.42239584224664,
         "lng": 11.641860784582512
@@ -3277,6 +3641,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7814343108219677
     },
     {
+      "trackPointId": 4077,
       "center": {
         "lat": 46.422390980267735,
         "lng": 11.64182933741023
@@ -3286,6 +3651,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7232471217937105
     },
     {
+      "trackPointId": 4078,
       "center": {
         "lat": 46.42270366496112,
         "lng": 11.641206313855353
@@ -3295,6 +3661,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6814082606265754
     },
     {
+      "trackPointId": 4079,
       "center": {
         "lat": 46.422498606494436,
         "lng": 11.641654691713915
@@ -3304,6 +3671,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7375500354127913
     },
     {
+      "trackPointId": 4080,
       "center": {
         "lat": 46.42241047264741,
         "lng": 11.64181097947887
@@ -3313,6 +3681,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6728677830121275
     },
     {
+      "trackPointId": 4084,
       "center": {
         "lat": 46.422215220563125,
         "lng": 11.641494651776606
@@ -3322,6 +3691,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7014817312425392
     },
     {
+      "trackPointId": 4085,
       "center": {
         "lat": 46.42218633052418,
         "lng": 11.641648844774101
@@ -3331,6 +3701,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7071896327243822
     },
     {
+      "trackPointId": 4101,
       "center": {
         "lat": 46.42418435177542,
         "lng": 11.641050268714581
@@ -3340,6 +3711,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6511607832200772
     },
     {
+      "trackPointId": 4102,
       "center": {
         "lat": 46.42246387835879,
         "lng": 11.641853490920889
@@ -3349,6 +3721,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6867632337311702
     },
     {
+      "trackPointId": 4103,
       "center": {
         "lat": 46.42235916234497,
         "lng": 11.64191031932089
@@ -3358,6 +3731,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6638403897812031
     },
     {
+      "trackPointId": 4107,
       "center": {
         "lat": 46.422141293875846,
         "lng": 11.641997594823843
@@ -3367,6 +3741,7 @@ calculatedDataFetchedCallback({
       "r2": 0.650663310641949
     },
     {
+      "trackPointId": 4109,
       "center": {
         "lat": 46.422080163838665,
         "lng": 11.641633487643112
@@ -3376,6 +3751,7 @@ calculatedDataFetchedCallback({
       "r2": 0.690258870293647
     },
     {
+      "trackPointId": 4110,
       "center": {
         "lat": 46.42170808069558,
         "lng": 11.640256738986665
@@ -3385,6 +3761,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7975974794324026
     },
     {
+      "trackPointId": 4111,
       "center": {
         "lat": 46.42181150492515,
         "lng": 11.640922414818906
@@ -3394,6 +3771,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7449022536377873
     },
     {
+      "trackPointId": 4130,
       "center": {
         "lat": 46.42158325103094,
         "lng": 11.642050047345345
@@ -3403,6 +3781,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8297680698442307
     },
     {
+      "trackPointId": 4131,
       "center": {
         "lat": 46.4215744275195,
         "lng": 11.642026178962801
@@ -3412,6 +3791,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7804562686247982
     },
     {
+      "trackPointId": 4132,
       "center": {
         "lat": 46.421582001050936,
         "lng": 11.642061970367543
@@ -3421,6 +3801,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6517225772885573
     },
     {
+      "trackPointId": 4133,
       "center": {
         "lat": 46.42157589925524,
         "lng": 11.642051059645402
@@ -3430,6 +3811,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7357954527270096
     },
     {
+      "trackPointId": 4134,
       "center": {
         "lat": 46.42157887081389,
         "lng": 11.642040418299391
@@ -3439,6 +3821,7 @@ calculatedDataFetchedCallback({
       "r2": 0.764654654861983
     },
     {
+      "trackPointId": 4135,
       "center": {
         "lat": 46.421584545967384,
         "lng": 11.642069794100383
@@ -3448,6 +3831,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6790774159333703
     },
     {
+      "trackPointId": 4195,
       "center": {
         "lat": 46.42132605274384,
         "lng": 11.641523562631294
@@ -3457,6 +3841,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7471008756492095
     },
     {
+      "trackPointId": 4196,
       "center": {
         "lat": 46.42129078748845,
         "lng": 11.6417355455219
@@ -3466,6 +3851,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7066307812027128
     },
     {
+      "trackPointId": 4198,
       "center": {
         "lat": 46.42103309608872,
         "lng": 11.642773412662198
@@ -3475,6 +3861,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8372548989067881
     },
     {
+      "trackPointId": 4199,
       "center": {
         "lat": 46.421205228609814,
         "lng": 11.642176367273317
@@ -3484,6 +3871,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7966017955026994
     },
     {
+      "trackPointId": 4200,
       "center": {
         "lat": 46.421234576039424,
         "lng": 11.642035207600227
@@ -3493,6 +3881,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7893671373592007
     },
     {
+      "trackPointId": 4201,
       "center": {
         "lat": 46.42123397159405,
         "lng": 11.642027009175589
@@ -3502,6 +3891,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7911231557991562
     },
     {
+      "trackPointId": 4202,
       "center": {
         "lat": 46.42117695120938,
         "lng": 11.642115504474486
@@ -3511,6 +3901,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7445248695134432
     },
     {
+      "trackPointId": 4541,
       "center": {
         "lat": 46.42496183958167,
         "lng": 11.648980631268236
@@ -3520,6 +3911,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6956047837306205
     },
     {
+      "trackPointId": 4542,
       "center": {
         "lat": 46.42484299768037,
         "lng": 11.648927405793435
@@ -3529,6 +3921,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6666656594052729
     },
     {
+      "trackPointId": 4549,
       "center": {
         "lat": 46.425621473475,
         "lng": 11.651348238899098
@@ -3538,6 +3931,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7665326765515993
     },
     {
+      "trackPointId": 4550,
       "center": {
         "lat": 46.425600908093756,
         "lng": 11.651383769113037
@@ -3547,6 +3941,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7543974609576398
     },
     {
+      "trackPointId": 4563,
       "center": {
         "lat": 46.42563860479625,
         "lng": 11.651712639076493
@@ -3556,6 +3951,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6588889220369988
     },
     {
+      "trackPointId": 4564,
       "center": {
         "lat": 46.425656538947926,
         "lng": 11.651682035420809
@@ -3565,6 +3961,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6605104677422615
     },
     {
+      "trackPointId": 4576,
       "center": {
         "lat": 46.42629275676783,
         "lng": 11.654503949459336
@@ -3574,6 +3971,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8442185265940862
     },
     {
+      "trackPointId": 4577,
       "center": {
         "lat": 46.42700835912714,
         "lng": 11.65489783212896
@@ -3583,6 +3981,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7956207121092078
     },
     {
+      "trackPointId": 4578,
       "center": {
         "lat": 46.42735254766864,
         "lng": 11.655060694993226
@@ -3592,6 +3991,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6747080911080673
     },
     {
+      "trackPointId": 4580,
       "center": {
         "lat": 46.42741535759295,
         "lng": 11.655119933581105
@@ -3601,6 +4001,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6710003524288228
     },
     {
+      "trackPointId": 4581,
       "center": {
         "lat": 46.42730252632589,
         "lng": 11.655287642453594
@@ -3610,6 +4011,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7743370057127454
     },
     {
+      "trackPointId": 4582,
       "center": {
         "lat": 46.4270378003288,
         "lng": 11.655008606939973
@@ -3619,6 +4021,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8500955565647899
     },
     {
+      "trackPointId": 4583,
       "center": {
         "lat": 46.42721828887551,
         "lng": 11.655361053670585
@@ -3628,6 +4031,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8659677446992068
     },
     {
+      "trackPointId": 4584,
       "center": {
         "lat": 46.42717010028072,
         "lng": 11.655202834256162
@@ -3637,6 +4041,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8687748635258334
     },
     {
+      "trackPointId": 4585,
       "center": {
         "lat": 46.42709440553647,
         "lng": 11.655235669903046
@@ -3646,6 +4051,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8848758068110234
     },
     {
+      "trackPointId": 4586,
       "center": {
         "lat": 46.42731109825742,
         "lng": 11.654937705249823
@@ -3655,6 +4061,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8381176061361293
     },
     {
+      "trackPointId": 4587,
       "center": {
         "lat": 46.42583341314425,
         "lng": 11.65252172101225
@@ -3664,6 +4071,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8798494126668169
     },
     {
+      "trackPointId": 4588,
       "center": {
         "lat": 46.425821173043566,
         "lng": 11.652411125487351
@@ -3673,6 +4081,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9363207106440458
     },
     {
+      "trackPointId": 4589,
       "center": {
         "lat": 46.426707395971036,
         "lng": 11.651533649402756
@@ -3682,6 +4091,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9423873206294013
     },
     {
+      "trackPointId": 4590,
       "center": {
         "lat": 46.42666635729282,
         "lng": 11.651694156928146
@@ -3691,6 +4101,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8836054062314513
     },
     {
+      "trackPointId": 4591,
       "center": {
         "lat": 46.426574674835145,
         "lng": 11.65171735917957
@@ -3700,6 +4111,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9026020555664073
     },
     {
+      "trackPointId": 4592,
       "center": {
         "lat": 46.425586672362044,
         "lng": 11.652636730987911
@@ -3709,6 +4121,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9021289181644222
     },
     {
+      "trackPointId": 4593,
       "center": {
         "lat": 46.42552735698706,
         "lng": 11.65267571396537
@@ -3718,6 +4131,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8762239503234585
     },
     {
+      "trackPointId": 4594,
       "center": {
         "lat": 46.42550460601694,
         "lng": 11.652685421017548
@@ -3727,6 +4141,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8636652644685026
     },
     {
+      "trackPointId": 4595,
       "center": {
         "lat": 46.425497553364714,
         "lng": 11.652689986316416
@@ -3736,6 +4151,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8792234828394629
     },
     {
+      "trackPointId": 4596,
       "center": {
         "lat": 46.42548140940934,
         "lng": 11.652642634794198
@@ -3745,6 +4161,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8326245458774625
     },
     {
+      "trackPointId": 4614,
       "center": {
         "lat": 46.42469289530303,
         "lng": 11.653599474795968
@@ -3754,6 +4171,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6555317494340133
     },
     {
+      "trackPointId": 4615,
       "center": {
         "lat": 46.42465714921411,
         "lng": 11.65359694421653
@@ -3763,6 +4181,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6919798822972058
     },
     {
+      "trackPointId": 4616,
       "center": {
         "lat": 46.424509339928,
         "lng": 11.653579989932314
@@ -3772,6 +4191,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6957844297917619
     },
     {
+      "trackPointId": 4617,
       "center": {
         "lat": 46.42430977129777,
         "lng": 11.653497019157975
@@ -3781,6 +4201,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7551003053987166
     },
     {
+      "trackPointId": 4618,
       "center": {
         "lat": 46.42472887855996,
         "lng": 11.6518412803817
@@ -3790,6 +4211,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7020373670623268
     },
     {
+      "trackPointId": 4619,
       "center": {
         "lat": 46.42472704317589,
         "lng": 11.651907260689141
@@ -3799,6 +4221,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6554661720747955
     },
     {
+      "trackPointId": 4629,
       "center": {
         "lat": 46.423985833109974,
         "lng": 11.65418278515642
@@ -3808,6 +4231,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6589029548258062
     },
     {
+      "trackPointId": 5268,
       "center": {
         "lat": 46.433413191089144,
         "lng": 11.730300348938247
@@ -3817,6 +4241,7 @@ calculatedDataFetchedCallback({
       "r2": 0.68091435496322
     },
     {
+      "trackPointId": 5288,
       "center": {
         "lat": 46.432813720198034,
         "lng": 11.731200474532473
@@ -3826,6 +4251,7 @@ calculatedDataFetchedCallback({
       "r2": 0.652295467977013
     },
     {
+      "trackPointId": 5435,
       "center": {
         "lat": 46.434607260914305,
         "lng": 11.729954522470631
@@ -3835,6 +4261,7 @@ calculatedDataFetchedCallback({
       "r2": 0.672108338600837
     },
     {
+      "trackPointId": 5438,
       "center": {
         "lat": 46.43405199058613,
         "lng": 11.729841972533823
@@ -3844,6 +4271,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8128899950475127
     },
     {
+      "trackPointId": 5439,
       "center": {
         "lat": 46.43428786304572,
         "lng": 11.73005578672403
@@ -3853,6 +4281,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6871758393191925
     },
     {
+      "trackPointId": 5484,
       "center": {
         "lat": 46.432991302934866,
         "lng": 11.735168705355163
@@ -3862,6 +4291,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8893802225579269
     },
     {
+      "trackPointId": 5485,
       "center": {
         "lat": 46.43275770650833,
         "lng": 11.73529626885589
@@ -3871,6 +4301,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9316158239885244
     },
     {
+      "trackPointId": 5486,
       "center": {
         "lat": 46.433747466279144,
         "lng": 11.736482121184947
@@ -3880,6 +4311,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7738559467656034
     },
     {
+      "trackPointId": 5538,
       "center": {
         "lat": 46.434498525946616,
         "lng": 11.73807563731784
@@ -3889,6 +4321,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7288107381106368
     },
     {
+      "trackPointId": 5539,
       "center": {
         "lat": 46.43450973490383,
         "lng": 11.738104443394572
@@ -3898,6 +4331,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7712446913695606
     },
     {
+      "trackPointId": 5540,
       "center": {
         "lat": 46.43452903142058,
         "lng": 11.738134633184282
@@ -3907,6 +4341,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7623191382043734
     },
     {
+      "trackPointId": 5541,
       "center": {
         "lat": 46.43453212523713,
         "lng": 11.738146452913647
@@ -3916,6 +4351,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7329351308338647
     },
     {
+      "trackPointId": 5542,
       "center": {
         "lat": 46.434497651601575,
         "lng": 11.737625114580224
@@ -3925,6 +4361,7 @@ calculatedDataFetchedCallback({
       "r2": 0.756516398727614
     },
     {
+      "trackPointId": 5543,
       "center": {
         "lat": 46.434563051407814,
         "lng": 11.735398071521024
@@ -3934,6 +4371,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8101827470518066
     },
     {
+      "trackPointId": 5544,
       "center": {
         "lat": 46.43463189330911,
         "lng": 11.735258287238086
@@ -3943,6 +4381,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7545741810226978
     },
     {
+      "trackPointId": 5545,
       "center": {
         "lat": 46.434174094665465,
         "lng": 11.73517121713004
@@ -3952,6 +4391,7 @@ calculatedDataFetchedCallback({
       "r2": 0.680483539158775
     },
     {
+      "trackPointId": 5546,
       "center": {
         "lat": 46.433307397274405,
         "lng": 11.73519203960097
@@ -3961,6 +4401,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8785060863820505
     },
     {
+      "trackPointId": 5547,
       "center": {
         "lat": 46.43439561906016,
         "lng": 11.738190218217161
@@ -3970,6 +4411,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9107991862647346
     },
     {
+      "trackPointId": 5548,
       "center": {
         "lat": 46.43445593901591,
         "lng": 11.738290039210632
@@ -3979,6 +4421,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8858347026080732
     },
     {
+      "trackPointId": 5549,
       "center": {
         "lat": 46.43448506133385,
         "lng": 11.738321685087659
@@ -3988,6 +4431,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8362737209074147
     },
     {
+      "trackPointId": 5550,
       "center": {
         "lat": 46.43449945865343,
         "lng": 11.738328917566689
@@ -3997,6 +4441,7 @@ calculatedDataFetchedCallback({
       "r2": 0.830559192253153
     },
     {
+      "trackPointId": 5551,
       "center": {
         "lat": 46.43450965076921,
         "lng": 11.738331774662669
@@ -4006,6 +4451,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8778194917638861
     },
     {
+      "trackPointId": 5552,
       "center": {
         "lat": 46.43444294848112,
         "lng": 11.73833163958987
@@ -4015,6 +4461,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8547099250280437
     },
     {
+      "trackPointId": 5553,
       "center": {
         "lat": 46.43428095109573,
         "lng": 11.738322474998695
@@ -4024,6 +4471,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8151077327912435
     },
     {
+      "trackPointId": 5554,
       "center": {
         "lat": 46.43417125731769,
         "lng": 11.738313189821918
@@ -4033,6 +4481,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8286365158421545
     },
     {
+      "trackPointId": 5555,
       "center": {
         "lat": 46.434160331137974,
         "lng": 11.738306024619147
@@ -4042,6 +4491,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8650113573750885
     },
     {
+      "trackPointId": 5584,
       "center": {
         "lat": 46.433369753934265,
         "lng": 11.740759124507848
@@ -4051,6 +4501,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6794428262642996
     },
     {
+      "trackPointId": 5585,
       "center": {
         "lat": 46.43320281591142,
         "lng": 11.739849972709644
@@ -4060,6 +4511,7 @@ calculatedDataFetchedCallback({
       "r2": 0.697214102964671
     },
     {
+      "trackPointId": 5586,
       "center": {
         "lat": 46.4331268433836,
         "lng": 11.739621260004945
@@ -4069,6 +4521,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6980990394070989
     },
     {
+      "trackPointId": 5587,
       "center": {
         "lat": 46.433658899582404,
         "lng": 11.739674240607064
@@ -4078,6 +4531,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7770778025408864
     },
     {
+      "trackPointId": 5588,
       "center": {
         "lat": 46.43450440004473,
         "lng": 11.739803590248421
@@ -4087,6 +4541,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8168492047822395
     },
     {
+      "trackPointId": 5589,
       "center": {
         "lat": 46.43315552202064,
         "lng": 11.73985001704505
@@ -4096,6 +4551,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6961639256484284
     },
     {
+      "trackPointId": 5618,
       "center": {
         "lat": 46.43349663647267,
         "lng": 11.741452316436817
@@ -4105,6 +4561,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9139735844671354
     },
     {
+      "trackPointId": 5619,
       "center": {
         "lat": 46.43362385804035,
         "lng": 11.741093713992816
@@ -4114,6 +4571,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9012273236840649
     },
     {
+      "trackPointId": 5620,
       "center": {
         "lat": 46.43361010289266,
         "lng": 11.741203827332757
@@ -4123,6 +4581,7 @@ calculatedDataFetchedCallback({
       "r2": 0.859291888876637
     },
     {
+      "trackPointId": 5621,
       "center": {
         "lat": 46.43332692469804,
         "lng": 11.74216805037294
@@ -4132,6 +4591,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8593422627032085
     },
     {
+      "trackPointId": 5622,
       "center": {
         "lat": 46.4332100082198,
         "lng": 11.742471703979058
@@ -4141,6 +4601,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9298007195752955
     },
     {
+      "trackPointId": 5623,
       "center": {
         "lat": 46.4330309141343,
         "lng": 11.743003559222753
@@ -4150,6 +4611,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9249130505393717
     },
     {
+      "trackPointId": 5624,
       "center": {
         "lat": 46.43318401649886,
         "lng": 11.742507708487755
@@ -4159,6 +4621,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9559660083406961
     },
     {
+      "trackPointId": 5625,
       "center": {
         "lat": 46.43328087338441,
         "lng": 11.742182206978107
@@ -4168,6 +4631,7 @@ calculatedDataFetchedCallback({
       "r2": 0.912756350471746
     },
     {
+      "trackPointId": 5626,
       "center": {
         "lat": 46.433317345669735,
         "lng": 11.742049803904909
@@ -4177,6 +4641,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8358969278872683
     },
     {
+      "trackPointId": 5627,
       "center": {
         "lat": 46.433320255786995,
         "lng": 11.742018434212143
@@ -4186,6 +4651,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7729240961414584
     },
     {
+      "trackPointId": 5628,
       "center": {
         "lat": 46.43329793768055,
         "lng": 11.741936330910875
@@ -4195,6 +4661,7 @@ calculatedDataFetchedCallback({
       "r2": 0.758158701687661
     },
     {
+      "trackPointId": 5629,
       "center": {
         "lat": 46.43325647550563,
         "lng": 11.741946375990553
@@ -4204,6 +4671,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7501360026332666
     },
     {
+      "trackPointId": 5635,
       "center": {
         "lat": 46.432841237149226,
         "lng": 11.738471248989306
@@ -4213,6 +4681,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6979779494115355
     },
     {
+      "trackPointId": 5640,
       "center": {
         "lat": 46.43290812774061,
         "lng": 11.743136482991282
@@ -4222,6 +4691,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8236261220145343
     },
     {
+      "trackPointId": 5641,
       "center": {
         "lat": 46.433015789133165,
         "lng": 11.74275829989627
@@ -4231,6 +4701,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8480001996389703
     },
     {
+      "trackPointId": 5642,
       "center": {
         "lat": 46.433030265581884,
         "lng": 11.742721821766915
@@ -4240,6 +4711,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8230250520340084
     },
     {
+      "trackPointId": 5643,
       "center": {
         "lat": 46.43303962431375,
         "lng": 11.742712251329852
@@ -4249,6 +4721,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8255271972933679
     },
     {
+      "trackPointId": 5644,
       "center": {
         "lat": 46.43303705424768,
         "lng": 11.742716763115576
@@ -4258,6 +4731,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8410578532387278
     },
     {
+      "trackPointId": 5653,
       "center": {
         "lat": 46.43206586374775,
         "lng": 11.742242974349832
@@ -4267,6 +4741,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7343326656480065
     },
     {
+      "trackPointId": 5654,
       "center": {
         "lat": 46.432190569257784,
         "lng": 11.742196621607466
@@ -4276,6 +4751,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8790878024898175
     },
     {
+      "trackPointId": 5774,
       "center": {
         "lat": 46.43693093932301,
         "lng": 11.743526527814955
@@ -4285,6 +4761,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7972555422895947
     },
     {
+      "trackPointId": 5775,
       "center": {
         "lat": 46.43766763058725,
         "lng": 11.743224828913247
@@ -4294,6 +4771,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7587091956057938
     },
     {
+      "trackPointId": 5776,
       "center": {
         "lat": 46.43755738380917,
         "lng": 11.743003603000789
@@ -4303,6 +4781,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6807353234047909
     },
     {
+      "trackPointId": 5777,
       "center": {
         "lat": 46.43470680941012,
         "lng": 11.744231510482335
@@ -4312,6 +4791,7 @@ calculatedDataFetchedCallback({
       "r2": 0.677298223977562
     },
     {
+      "trackPointId": 5778,
       "center": {
         "lat": 46.433952110291266,
         "lng": 11.744197486651062
@@ -4321,6 +4801,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7482662486186675
     },
     {
+      "trackPointId": 5779,
       "center": {
         "lat": 46.43377479385332,
         "lng": 11.744118313186663
@@ -4330,6 +4811,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7739429877791595
     },
     {
+      "trackPointId": 5780,
       "center": {
         "lat": 46.43372780326024,
         "lng": 11.744051201551171
@@ -4339,6 +4821,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7273446222211437
     },
     {
+      "trackPointId": 5781,
       "center": {
         "lat": 46.433772963960365,
         "lng": 11.744381688098517
@@ -4348,6 +4831,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8078694135602754
     },
     {
+      "trackPointId": 5782,
       "center": {
         "lat": 46.43386027720051,
         "lng": 11.744602255202055
@@ -4357,6 +4841,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8739295644701849
     },
     {
+      "trackPointId": 5783,
       "center": {
         "lat": 46.43389874630346,
         "lng": 11.744625141290623
@@ -4366,6 +4851,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7478814617173368
     },
     {
+      "trackPointId": 5784,
       "center": {
         "lat": 46.43411293478041,
         "lng": 11.74477533673643
@@ -4375,6 +4861,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7810134980311784
     },
     {
+      "trackPointId": 5822,
       "center": {
         "lat": 46.4332310521529,
         "lng": 11.746289322708968
@@ -4384,6 +4871,7 @@ calculatedDataFetchedCallback({
       "r2": 0.807780750872905
     },
     {
+      "trackPointId": 5881,
       "center": {
         "lat": 46.433593014674194,
         "lng": 11.747767659581728
@@ -4393,6 +4881,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6708405828279618
     },
     {
+      "trackPointId": 5882,
       "center": {
         "lat": 46.434851667585576,
         "lng": 11.745230833241076
@@ -4402,6 +4891,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7128869276193658
     },
     {
+      "trackPointId": 5883,
       "center": {
         "lat": 46.4345681202228,
         "lng": 11.744627570757698
@@ -4411,6 +4901,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7300038231892185
     },
     {
+      "trackPointId": 5884,
       "center": {
         "lat": 46.43470087140746,
         "lng": 11.744789916849001
@@ -4420,6 +4911,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7347228362988296
     },
     {
+      "trackPointId": 5885,
       "center": {
         "lat": 46.435340306374556,
         "lng": 11.745304704192174
@@ -4429,6 +4921,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7666098262679565
     },
     {
+      "trackPointId": 5886,
       "center": {
         "lat": 46.43563135695318,
         "lng": 11.745929769624901
@@ -4438,6 +4931,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8184651816138807
     },
     {
+      "trackPointId": 5887,
       "center": {
         "lat": 46.435824380434475,
         "lng": 11.746075761351378
@@ -4447,6 +4941,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8419645947692774
     },
     {
+      "trackPointId": 6069,
       "center": {
         "lat": 46.44194125647109,
         "lng": 11.777451631871463
@@ -4456,6 +4951,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8334013701592867
     },
     {
+      "trackPointId": 6070,
       "center": {
         "lat": 46.44195027760338,
         "lng": 11.777430654211953
@@ -4465,6 +4961,7 @@ calculatedDataFetchedCallback({
       "r2": 0.84793030130849
     },
     {
+      "trackPointId": 6071,
       "center": {
         "lat": 46.441943357020776,
         "lng": 11.77712657969791
@@ -4474,6 +4971,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8450027527455871
     },
     {
+      "trackPointId": 6072,
       "center": {
         "lat": 46.44199387297937,
         "lng": 11.77819077794079
@@ -4483,6 +4981,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8357282269658317
     },
     {
+      "trackPointId": 6073,
       "center": {
         "lat": 46.44223235569247,
         "lng": 11.77917002137745
@@ -4492,6 +4991,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8413312374918098
     },
     {
+      "trackPointId": 6074,
       "center": {
         "lat": 46.441781266606995,
         "lng": 11.78103951368996
@@ -4501,6 +5001,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7443083747867969
     },
     {
+      "trackPointId": 6075,
       "center": {
         "lat": 46.439633252663164,
         "lng": 11.781729205947892
@@ -4510,6 +5011,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7417893627835044
     },
     {
+      "trackPointId": 6081,
       "center": {
         "lat": 46.440430644700875,
         "lng": 11.777890040728515
@@ -4519,6 +5021,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7004587872329309
     },
     {
+      "trackPointId": 6082,
       "center": {
         "lat": 46.44043169582805,
         "lng": 11.777903003421391
@@ -4528,6 +5031,7 @@ calculatedDataFetchedCallback({
       "r2": 0.827143018560221
     },
     {
+      "trackPointId": 6104,
       "center": {
         "lat": 46.441318472475245,
         "lng": 11.78365098463165
@@ -4537,6 +5041,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8034754079649188
     },
     {
+      "trackPointId": 6105,
       "center": {
         "lat": 46.44123008871934,
         "lng": 11.783936284412128
@@ -4546,6 +5051,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8904898030257308
     },
     {
+      "trackPointId": 6106,
       "center": {
         "lat": 46.43871094650114,
         "lng": 11.782695755728797
@@ -4555,6 +5061,7 @@ calculatedDataFetchedCallback({
       "r2": 0.905268465225509
     },
     {
+      "trackPointId": 6107,
       "center": {
         "lat": 46.43850696085927,
         "lng": 11.782485823468104
@@ -4564,6 +5071,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8881340792852325
     },
     {
+      "trackPointId": 6108,
       "center": {
         "lat": 46.438392311322254,
         "lng": 11.7821116960038
@@ -4573,6 +5081,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8772080599104519
     },
     {
+      "trackPointId": 6109,
       "center": {
         "lat": 46.43828188731241,
         "lng": 11.781635798295081
@@ -4582,6 +5091,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8265341344708539
     },
     {
+      "trackPointId": 6110,
       "center": {
         "lat": 46.43896534300219,
         "lng": 11.781383509248059
@@ -4591,6 +5101,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8939685090885802
     },
     {
+      "trackPointId": 6111,
       "center": {
         "lat": 46.43827417268889,
         "lng": 11.781592410196394
@@ -4600,6 +5111,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9019055483245654
     },
     {
+      "trackPointId": 6112,
       "center": {
         "lat": 46.43994948600353,
         "lng": 11.781036900894827
@@ -4609,6 +5121,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8127545972952034
     },
     {
+      "trackPointId": 6119,
       "center": {
         "lat": 46.439772405265195,
         "lng": 11.778452431618208
@@ -4618,6 +5131,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6702913051845426
     },
     {
+      "trackPointId": 6149,
       "center": {
         "lat": 46.44127274565333,
         "lng": 11.783792784362356
@@ -4627,6 +5141,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6841961249858721
     },
     {
+      "trackPointId": 6150,
       "center": {
         "lat": 46.43897658504207,
         "lng": 11.783750350610495
@@ -4636,6 +5151,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9264313326248599
     },
     {
+      "trackPointId": 6151,
       "center": {
         "lat": 46.43922487776671,
         "lng": 11.783289541705905
@@ -4645,6 +5161,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9206346122505386
     },
     {
+      "trackPointId": 6152,
       "center": {
         "lat": 46.44031565122021,
         "lng": 11.7836244781885
@@ -4654,6 +5171,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8826486722551963
     },
     {
+      "trackPointId": 6153,
       "center": {
         "lat": 46.43932696646346,
         "lng": 11.783107035681823
@@ -4663,6 +5181,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8558883724139382
     },
     {
+      "trackPointId": 6154,
       "center": {
         "lat": 46.43937955754991,
         "lng": 11.783394413817302
@@ -4672,6 +5191,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7590092713357547
     },
     {
+      "trackPointId": 6183,
       "center": {
         "lat": 46.44000275508103,
         "lng": 11.784552401072238
@@ -4681,6 +5201,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6702285213137587
     },
     {
+      "trackPointId": 6209,
       "center": {
         "lat": 46.443229819961466,
         "lng": 11.78761334481
@@ -4690,6 +5211,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7776301747935868
     },
     {
+      "trackPointId": 6210,
       "center": {
         "lat": 46.44208262189281,
         "lng": 11.787221507222755
@@ -4699,6 +5221,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7902041755269255
     },
     {
+      "trackPointId": 6211,
       "center": {
         "lat": 46.441742869158624,
         "lng": 11.787106117194584
@@ -4708,6 +5231,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8043732984759057
     },
     {
+      "trackPointId": 6212,
       "center": {
         "lat": 46.441642017146094,
         "lng": 11.787015536435044
@@ -4717,6 +5241,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6670672560632627
     },
     {
+      "trackPointId": 6214,
       "center": {
         "lat": 46.43966578610604,
         "lng": 11.783878833178706
@@ -4726,6 +5251,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7168926544948071
     },
     {
+      "trackPointId": 6215,
       "center": {
         "lat": 46.43945470846545,
         "lng": 11.784200533171814
@@ -4735,6 +5261,7 @@ calculatedDataFetchedCallback({
       "r2": 0.781099812634441
     },
     {
+      "trackPointId": 6216,
       "center": {
         "lat": 46.43953210138624,
         "lng": 11.784152363805434
@@ -4744,6 +5271,7 @@ calculatedDataFetchedCallback({
       "r2": 0.802239792254551
     },
     {
+      "trackPointId": 6217,
       "center": {
         "lat": 46.440191168791905,
         "lng": 11.783671079539896
@@ -4753,6 +5281,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8166131311704646
     },
     {
+      "trackPointId": 6218,
       "center": {
         "lat": 46.44090026083593,
         "lng": 11.783655971113994
@@ -4762,6 +5291,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7534793537914388
     },
     {
+      "trackPointId": 6224,
       "center": {
         "lat": 46.44311392719186,
         "lng": 11.78541674926617
@@ -4771,6 +5301,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7086209187040732
     },
     {
+      "trackPointId": 6225,
       "center": {
         "lat": 46.44348147687113,
         "lng": 11.78593935301043
@@ -4780,6 +5311,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7300753983060029
     },
     {
+      "trackPointId": 6226,
       "center": {
         "lat": 46.44382343620915,
         "lng": 11.78806335743982
@@ -4789,6 +5321,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8484899485993411
     },
     {
+      "trackPointId": 6227,
       "center": {
         "lat": 46.44343599458113,
         "lng": 11.789277753270463
@@ -4798,6 +5331,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9061764973937014
     },
     {
+      "trackPointId": 6228,
       "center": {
         "lat": 46.443297763897775,
         "lng": 11.789657234151075
@@ -4807,6 +5341,7 @@ calculatedDataFetchedCallback({
       "r2": 0.939137401481014
     },
     {
+      "trackPointId": 6229,
       "center": {
         "lat": 46.44162672876893,
         "lng": 11.787702268920135
@@ -4816,6 +5351,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7767993315173738
     },
     {
+      "trackPointId": 6237,
       "center": {
         "lat": 46.44133375178949,
         "lng": 11.787643763234238
@@ -4825,6 +5361,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8135788277942089
     },
     {
+      "trackPointId": 6238,
       "center": {
         "lat": 46.441306124262645,
         "lng": 11.787705400931202
@@ -4834,6 +5371,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7427566378913091
     },
     {
+      "trackPointId": 6598,
       "center": {
         "lat": 46.437999164898045,
         "lng": 11.843538024612581
@@ -4843,6 +5381,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6683209095183518
     },
     {
+      "trackPointId": 6635,
       "center": {
         "lat": 46.437880261010555,
         "lng": 11.841379979984891
@@ -4852,6 +5391,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6806827105111501
     },
     {
+      "trackPointId": 6636,
       "center": {
         "lat": 46.43789647628691,
         "lng": 11.840761116609658
@@ -4861,6 +5401,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8725565975554785
     },
     {
+      "trackPointId": 6637,
       "center": {
         "lat": 46.43797518836209,
         "lng": 11.838682669107756
@@ -4870,6 +5411,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9425354302085297
     },
     {
+      "trackPointId": 6638,
       "center": {
         "lat": 46.43790127293975,
         "lng": 11.838569497562219
@@ -4879,6 +5421,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9377619367843975
     },
     {
+      "trackPointId": 6639,
       "center": {
         "lat": 46.43756177238874,
         "lng": 11.838447132899436
@@ -4888,6 +5431,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9572234653327633
     },
     {
+      "trackPointId": 6640,
       "center": {
         "lat": 46.43774492647896,
         "lng": 11.841347388349195
@@ -4897,6 +5441,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9693804482960497
     },
     {
+      "trackPointId": 6641,
       "center": {
         "lat": 46.43763550248866,
         "lng": 11.84098136673697
@@ -4906,6 +5451,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9800160544330888
     },
     {
+      "trackPointId": 6642,
       "center": {
         "lat": 46.4377350461734,
         "lng": 11.841534252129229
@@ -4915,6 +5461,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9808074047725491
     },
     {
+      "trackPointId": 6643,
       "center": {
         "lat": 46.43772602884312,
         "lng": 11.84145339365387
@@ -4924,6 +5471,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9769833121544657
     },
     {
+      "trackPointId": 6644,
       "center": {
         "lat": 46.43720500363954,
         "lng": 11.838923036652096
@@ -4933,6 +5481,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9406019237995584
     },
     {
+      "trackPointId": 6645,
       "center": {
         "lat": 46.4373275851166,
         "lng": 11.838633472027198
@@ -4942,6 +5491,7 @@ calculatedDataFetchedCallback({
       "r2": 0.864246025032882
     },
     {
+      "trackPointId": 6646,
       "center": {
         "lat": 46.43748071538217,
         "lng": 11.838604937118617
@@ -4951,6 +5501,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7766280421970843
     },
     {
+      "trackPointId": 6647,
       "center": {
         "lat": 46.43755114420438,
         "lng": 11.83859577557863
@@ -4960,6 +5511,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7644153933901536
     },
     {
+      "trackPointId": 6652,
       "center": {
         "lat": 46.436398721718994,
         "lng": 11.844277732303032
@@ -4969,6 +5521,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6742773545417702
     },
     {
+      "trackPointId": 6653,
       "center": {
         "lat": 46.436970404440665,
         "lng": 11.843337566002498
@@ -4978,6 +5531,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6993027403630591
     },
     {
+      "trackPointId": 6673,
       "center": {
         "lat": 46.43862394979211,
         "lng": 11.841467117193702
@@ -4987,6 +5541,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9699098793939681
     },
     {
+      "trackPointId": 6674,
       "center": {
         "lat": 46.4381970304778,
         "lng": 11.842672203115402
@@ -4996,6 +5551,7 @@ calculatedDataFetchedCallback({
       "r2": 0.98676548544323
     },
     {
+      "trackPointId": 6675,
       "center": {
         "lat": 46.43825559181601,
         "lng": 11.842509191067464
@@ -5005,6 +5561,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9858271522190092
     },
     {
+      "trackPointId": 6676,
       "center": {
         "lat": 46.43821893450203,
         "lng": 11.84258914992713
@@ -5014,6 +5571,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9837102233037046
     },
     {
+      "trackPointId": 6677,
       "center": {
         "lat": 46.43826819913273,
         "lng": 11.842375934463783
@@ -5023,6 +5581,7 @@ calculatedDataFetchedCallback({
       "r2": 0.92454822690826
     },
     {
+      "trackPointId": 6830,
       "center": {
         "lat": 46.43525260714196,
         "lng": 11.845863683060426
@@ -5032,6 +5591,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8461263736071126
     },
     {
+      "trackPointId": 6953,
       "center": {
         "lat": 46.44026884610251,
         "lng": 11.832563470965594
@@ -5041,6 +5601,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8914026395226227
     },
     {
+      "trackPointId": 6954,
       "center": {
         "lat": 46.440301000208535,
         "lng": 11.832522775071816
@@ -5050,6 +5611,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8579151537161729
     },
     {
+      "trackPointId": 6955,
       "center": {
         "lat": 46.44027453659469,
         "lng": 11.832476019367846
@@ -5059,6 +5621,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8843320590696521
     },
     {
+      "trackPointId": 6956,
       "center": {
         "lat": 46.44029255137788,
         "lng": 11.832475139796566
@@ -5068,6 +5631,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8790105844699871
     },
     {
+      "trackPointId": 6957,
       "center": {
         "lat": 46.44029507697977,
         "lng": 11.832465688456567
@@ -5077,6 +5641,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8459808149226274
     },
     {
+      "trackPointId": 6958,
       "center": {
         "lat": 46.440474982781716,
         "lng": 11.833062210970365
@@ -5086,6 +5651,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8054083839364774
     },
     {
+      "trackPointId": 6959,
       "center": {
         "lat": 46.44108650305571,
         "lng": 11.835021070319263
@@ -5095,6 +5661,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7732170561590593
     },
     {
+      "trackPointId": 6960,
       "center": {
         "lat": 46.44147097624865,
         "lng": 11.836287867360166
@@ -5104,6 +5671,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7928782752473347
     },
     {
+      "trackPointId": 6961,
       "center": {
         "lat": 46.44187355668344,
         "lng": 11.838340530353964
@@ -5113,6 +5681,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6660569659545237
     },
     {
+      "trackPointId": 6986,
       "center": {
         "lat": 46.44416275033773,
         "lng": 11.834710853984783
@@ -5122,6 +5691,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7011706672596338
     },
     {
+      "trackPointId": 7617,
       "center": {
         "lat": 46.49820711536517,
         "lng": 11.80677230516591
@@ -5131,6 +5701,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8292044259884169
     },
     {
+      "trackPointId": 7618,
       "center": {
         "lat": 46.49787060483054,
         "lng": 11.807251850585812
@@ -5140,6 +5711,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7025008306103573
     },
     {
+      "trackPointId": 7619,
       "center": {
         "lat": 46.49768428071872,
         "lng": 11.807431247775721
@@ -5149,6 +5721,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6627318502669718
     },
     {
+      "trackPointId": 7620,
       "center": {
         "lat": 46.4968723309695,
         "lng": 11.805526011721582
@@ -5158,6 +5731,7 @@ calculatedDataFetchedCallback({
       "r2": 0.74871128903558
     },
     {
+      "trackPointId": 7665,
       "center": {
         "lat": 46.49639818668172,
         "lng": 11.798600449211513
@@ -5167,6 +5741,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6826076524291799
     },
     {
+      "trackPointId": 7666,
       "center": {
         "lat": 46.49640373504669,
         "lng": 11.798498311273628
@@ -5176,6 +5751,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6815346768492374
     },
     {
+      "trackPointId": 7674,
       "center": {
         "lat": 46.49825660765186,
         "lng": 11.798734243903528
@@ -5185,6 +5761,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7580841006529673
     },
     {
+      "trackPointId": 7675,
       "center": {
         "lat": 46.49849745381144,
         "lng": 11.798753211028732
@@ -5194,6 +5771,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9259247041936709
     },
     {
+      "trackPointId": 7676,
       "center": {
         "lat": 46.498982539497774,
         "lng": 11.798827693452603
@@ -5203,6 +5781,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8935446704722527
     },
     {
+      "trackPointId": 7677,
       "center": {
         "lat": 46.50003343935146,
         "lng": 11.799050671875426
@@ -5212,6 +5791,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6916631646491004
     },
     {
+      "trackPointId": 7699,
       "center": {
         "lat": 46.49729616840394,
         "lng": 11.798183438694457
@@ -5221,6 +5801,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6768641668390929
     },
     {
+      "trackPointId": 7701,
       "center": {
         "lat": 46.49728648741273,
         "lng": 11.797576032041595
@@ -5230,6 +5811,7 @@ calculatedDataFetchedCallback({
       "r2": 0.6541581883547688
     },
     {
+      "trackPointId": 7702,
       "center": {
         "lat": 46.49751733723509,
         "lng": 11.796884655574823
@@ -5239,6 +5821,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7707441728975135
     },
     {
+      "trackPointId": 7703,
       "center": {
         "lat": 46.498755135382034,
         "lng": 11.796259341270238
@@ -5248,6 +5831,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8531978164669316
     },
     {
+      "trackPointId": 7704,
       "center": {
         "lat": 46.49976755673595,
         "lng": 11.795720325756632
@@ -5257,6 +5841,7 @@ calculatedDataFetchedCallback({
       "r2": 0.9069374408248657
     },
     {
+      "trackPointId": 7705,
       "center": {
         "lat": 46.50090645092802,
         "lng": 11.795171409041481
@@ -5266,6 +5851,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8872179054031752
     },
     {
+      "trackPointId": 7706,
       "center": {
         "lat": 46.498930702547604,
         "lng": 11.79871052298979
@@ -5275,6 +5861,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7624557896226445
     },
     {
+      "trackPointId": 8051,
       "center": {
         "lat": 46.493371270726314,
         "lng": 11.760286327076507
@@ -5284,6 +5871,7 @@ calculatedDataFetchedCallback({
       "r2": 0.7829906567686636
     },
     {
+      "trackPointId": 8052,
       "center": {
         "lat": 46.49306532684528,
         "lng": 11.760587877619017
@@ -5293,6 +5881,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8802670587345708
     },
     {
+      "trackPointId": 8053,
       "center": {
         "lat": 46.49313225376885,
         "lng": 11.760502073762394
@@ -5302,6 +5891,7 @@ calculatedDataFetchedCallback({
       "r2": 0.893419259295531
     },
     {
+      "trackPointId": 8054,
       "center": {
         "lat": 46.493253222068795,
         "lng": 11.760373012261025
@@ -5311,6 +5901,7 @@ calculatedDataFetchedCallback({
       "r2": 0.8726175586384279
     },
     {
+      "trackPointId": 8055,
       "center": {
         "lat": 46.49355595373648,
         "lng": 11.760061386279185

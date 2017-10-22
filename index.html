@@ -23,45 +23,95 @@
 <body>
   <div id="map"></div>
   <script>
+    window.currentTrackPointId = 595;
+    window.calculatedThermailsViews = [];
     var map;
     function initMap() {
-      map = new google.maps.Map(document.getElementById('map'), {
+      window.map = new google.maps.Map(document.getElementById('map'), {
         zoom: 12,
         center: { lat: 46.48991, lng: 11.7614 },
         mapTypeId: 'terrain'
       });
 
-      for (therm of window.flightBoxData.thermails) {
-        console.log(therm);
-        circle = new google.maps.Circle({
-          map: map,
-          center: therm.center,
-          radius: therm.radius,
-          fillColor: 'blue',
-          fillOpacity: 0.5,
-          zIndex: 0,
-          strokeWeight: 1
-        });
-      };
-
-      console.log("Rendering calculated data");
-      for (therm of window.calculatedData.thermails) {
-        console.log(therm);
-        circle = new google.maps.Circle({
-          map: map,
-          center: therm.center,
-          radius: therm.radius,
-          fillColor: determinationColor(therm.r2),
-          fillOpacity: 0.5,
-          strokeWeight: 0.5, 
-          zIndex: 100
-        });
-      };
+      console.log("Rendering thermails from XCGlobe")
+      renderTrackThermails(window.map, window.flightBoxData.thermails);
 
       console.log("Rendering flight track");
+      renderTrack(window.map, window.trackData);
+    }
+  </script>
+
+  <script>
+    // Rendering routines
+    function renderTrackThermails(map, thermails) {
+      for (therm of thermails) {
+        renderThermail(map, therm, {
+          zIndex:100,
+          fillColor: 'blue',
+          zIndex: 0
+        });
+      };
+    }
+
+    function renderCalculatedThermailsForTrackPointId(trackPointId, map, thermails) {
+      const countOfPriorThermailsToShow = 2;
+      const nearestThermailIdx = -1 + thermails.findIndex(function (therm) {
+        return therm.trackPointId > trackPointId
+      });
+      console.log("trackPointId = ", trackPointId);
+      console.log("NearestThermailIdx = ", nearestThermailIdx);
+      if (nearestThermailIdx < 0) {
+        return [];
+      }
+
+      const startIdx = Math.max(0, nearestThermailIdx - countOfPriorThermailsToShow);
+      const endIdx = nearestThermailIdx;
+
+      thermailViews = [];
+      for (let i = startIdx; i <= endIdx; i++) {
+        const therm  = thermails[i];
+        const opacity = 0.1 + 0.4 * (i-startIdx)/(endIdx - startIdx); // from 0.1 to 0.5
+        const thermView = renderThermail(map, therm, {
+          zIndex: 100,
+          fillColor: determinationColor(therm.r2), 
+          fillOpacity: opacity
+        });
+        thermailViews.push(thermView);
+      };
+
+      return thermailViews;
+    }
+
+    function renderAllCalculatedThermails(map, thermails) {
+      for (therm of thermails) {
+        renderThermail(map, therm, {
+          zIndex:100,
+          fillColor: determinationColor(therm.r2)
+        });
+      };
+    }
+
+    function renderThermail(map, therm, options) {
+        circle = new google.maps.Circle({
+          map: map,
+          center: therm.center,
+          radius: therm.radius,
+          fillOpacity: 0.5,
+          strokeWeight: 1,
+          ...options
+        });
+        return circle;
+    }
+
+    function destroyRenderedThermail(thermailView){
+      console.debug("Destroying thermail");
+      thermailView.setMap(null);
+    }
+
+    function renderTrack(trackData) {
       new google.maps.Polyline({
         map: map,
-        path: window.trackData.gpts,
+        path: window.trackData.points,
         strokeWeight: 2,
         strokeColor: 'yellow'
       });
@@ -85,7 +135,9 @@
       const hue = lowHue + (hightHue - lowHue) * value;
       return 'hsl(' + hue + ', 100%, 50%)';
     }
-
+  </script>
+  <script> 
+    // Data loading routines
     function flightBoxDataFetchedCallback(data) {
       console.log("Thermails loaded: ", data.thermails.length);
       window.flightBoxData = data;
@@ -101,9 +153,39 @@
       window.trackData = data;
     }
   </script>
+
+  <script>
+    // User interaction handling
+    function handleKeyPress(e){
+      console.log(`Key ${e.code} pressed`);
+
+      const trackPointsCount = window.trackData.points.length;
+      if (e.code === 'KeyD'){
+        window.currentTrackPointId = Math.min(window.currentTrackPointId + 1, trackPointsCount);  
+      } else if (e.code === 'KeyA'){
+        window.currentTrackPointId = Math.max(window.currentTrackPointId - 1, 0);  
+      } else {
+        return;
+      }
+
+      //  Get previously rendered calculated thermails
+      const thermailsViewsToDestroy = window.calculatedThermailsViews;
+
+      // Render new thermails
+      window.calculatedThermailsViews = renderCalculatedThermailsForTrackPointId(
+        window.currentTrackPointId,
+        window.map,
+        window.calculatedData.thermails
+      );
+
+      // Remove previously rendered calculated thermails
+      thermailsViewsToDestroy.forEach(destroyRenderedThermail);
+    }
+    window.addEventListener('keydown', handleKeyPress);
+  </script>
   <script src="data/xc-thermails.js"></script>
   <script src="data/calculated_thermails.js"></script>
-  <script src="data/xc-track.js"></script>
+  <script src="data/igc-track.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCM-8hga1cAOBlE2a9ssL95G3SCMXh5B8o&callback=initMap">
 
   </script>
