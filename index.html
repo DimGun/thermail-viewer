@@ -64,27 +64,22 @@
         return [];
       }
 
-      const therm  = thermails[nearestThermailIdx];
-      console.log("Rendering thermail = ", therm);
-      thermView = renderThermail(map, therm, {
+      const startIdx = Math.max(0, nearestThermailIdx - countOfPriorThermailsToShow);
+      const endIdx = nearestThermailIdx;
+
+      thermailViews = [];
+      for (let i = startIdx; i <= endIdx; i++) {
+        const therm  = thermails[i];
+        const opacity = 0.1 + 0.4 * (i-startIdx)/(endIdx - startIdx); // from 0.1 to 0.5
+        const thermView = renderThermail(map, therm, {
           zIndex: 100,
           fillColor: determinationColor(therm.r2), 
-          fillOpacity: 0.5
+          fillOpacity: opacity
         });
-      return [thermView];
+        thermailViews.push(thermView);
+      };
 
-      // const startIdx = Math.max(0, nearestThermailIdx - countOfPriorThermailsToShow);
-      // const endIdx = nearestThermailIdx;
-
-      // for (let i = startIdx; i <= endIdx; i++) {
-      //   const therm  = thermails[i];
-      //   const opacity = 0.1 + i * 0.4 * (i-startIdx)/(endIdx - startIdx); // from 0.1 to 0.5
-      //   renderThermail(map, therm, {
-      //     zIndex: 100,
-      //     fillColor: determinationColor(therm.r2), 
-      //     fillOpacity: opacity
-      //   });
-      // };
+      return thermailViews;
     }
 
     function renderAllCalculatedThermails(map, thermails) {
@@ -164,24 +159,27 @@
     function handleKeyPress(e){
       console.log(`Key ${e.code} pressed`);
 
-      // Remove previously rendered calculated thermails
-      window.calculatedThermailsViews.forEach(destroyRenderedThermail);
-      window.calculatedThermailsViews = [];
-
       const trackPointsCount = window.trackData.points.length;
       if (e.code === 'KeyD'){
-        window.currentTrackPointId = Math.min(window.currentTrackPointId + 10, trackPointsCount);  
+        window.currentTrackPointId = Math.min(window.currentTrackPointId + 1, trackPointsCount);  
       } else if (e.code === 'KeyA'){
-        window.currentTrackPointId = Math.max(window.currentTrackPointId - 10, 0);  
+        window.currentTrackPointId = Math.max(window.currentTrackPointId - 1, 0);  
       } else {
         return;
       }
 
+      //  Get previously rendered calculated thermails
+      const thermailsViewsToDestroy = window.calculatedThermailsViews;
+
+      // Render new thermails
       window.calculatedThermailsViews = renderCalculatedThermailsForTrackPointId(
         window.currentTrackPointId,
         window.map,
         window.calculatedData.thermails
       );
+
+      // Remove previously rendered calculated thermails
+      thermailsViewsToDestroy.forEach(destroyRenderedThermail);
     }
     window.addEventListener('keydown', handleKeyPress);
   </script>
