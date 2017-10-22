@@ -168,8 +168,15 @@
       window.calculatedThermailsViews.forEach(destroyRenderedThermail);
       window.calculatedThermailsViews = [];
 
-      const nextTPIdx = window.currentTrackPointId + 10;
-      window.currentTrackPointId = (nextTPIdx < window.trackData.points.length)? nextTPIdx : 0;
+      const trackPointsCount = window.trackData.points.length;
+      if (e.code === 'KeyD'){
+        window.currentTrackPointId = Math.min(window.currentTrackPointId + 10, trackPointsCount);  
+      } else if (e.code === 'KeyA'){
+        window.currentTrackPointId = Math.max(window.currentTrackPointId - 10, 0);  
+      } else {
+        return;
+      }
+
       window.calculatedThermailsViews = renderCalculatedThermailsForTrackPointId(
         window.currentTrackPointId,
         window.map,
