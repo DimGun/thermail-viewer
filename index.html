@@ -49,7 +49,7 @@
     function renderTrackThermails(map, thermails) {
       for (therm of thermails) {
         renderThermail(map, therm, {
-          zIndex:100,
+          zIndex: 100,
           fillColor: 'blue',
           zIndex: 0
         });
@@ -72,11 +72,11 @@
 
       thermailViews = [];
       for (let i = startIdx; i <= endIdx; i++) {
-        const therm  = thermails[i];
-        const opacity = 0.1 + 0.4 * (i-startIdx)/(endIdx - startIdx); // from 0.1 to 0.5
+        const therm = thermails[i];
+        const opacity = 0.1 + 0.4 * (i - startIdx) / (endIdx - startIdx); // from 0.1 to 0.5
         const thermView = renderThermail(map, therm, {
           zIndex: 100,
-          fillColor: determinationColor(therm.r2), 
+          fillColor: determinationColor(therm.r2),
           fillOpacity: opacity
         });
         thermailViews.push(thermView);
@@ -88,25 +88,25 @@
     function renderAllCalculatedThermails(map, thermails) {
       for (therm of thermails) {
         renderThermail(map, therm, {
-          zIndex:100,
+          zIndex: 100,
           fillColor: determinationColor(therm.r2)
         });
       };
     }
 
     function renderThermail(map, therm, options) {
-        circle = new google.maps.Circle({
-          map: map,
-          center: therm.center,
-          radius: therm.radius,
-          fillOpacity: 0.5,
-          strokeWeight: 1,
-          ...options
-        });
-        return circle;
+      circle = new google.maps.Circle({
+        map: map,
+        center: therm.center,
+        radius: therm.radius,
+        fillOpacity: 0.5,
+        strokeWeight: 1,
+        ...options
+      });
+      return circle;
     }
 
-    function destroyRenderedThermail(thermailView){
+    function destroyRenderedThermail(thermailView) {
       console.debug("Destroying thermail");
       thermailView.setMap(null);
     }
@@ -120,9 +120,9 @@
       });
     }
 
-    function renderPlane(map, planeMarker, point){
+    function renderPlane(map, planeMarker, point) {
       let marker = planeMarker;
-      if (!marker){
+      if (!marker) {
         marker = new google.maps.Marker({
           map: map,
           icon: {
@@ -157,7 +157,7 @@
       return 'hsl(' + hue + ', 100%, 50%)';
     }
   </script>
-  <script> 
+  <script>
     // Data loading routines
     function flightBoxDataFetchedCallback(data) {
       console.log("Thermails loaded: ", data.thermails.length);
@@ -177,14 +177,14 @@
 
   <script>
     // User interaction handling
-    function handleKeyPress(e){
+    function handleKeyPress(e) {
       console.log(`Key ${e.code} pressed`);
 
       const trackPointsCount = window.trackData.points.length;
-      if (e.code === 'KeyD'){
-        window.currentTrackPointId = Math.min(window.currentTrackPointId + 1, trackPointsCount);  
-      } else if (e.code === 'KeyA'){
-        window.currentTrackPointId = Math.max(window.currentTrackPointId - 1, 0);  
+      if (e.code === 'KeyD') {
+        window.currentTrackPointId = Math.min(window.currentTrackPointId + 1, trackPointsCount);
+      } else if (e.code === 'KeyA') {
+        window.currentTrackPointId = Math.max(window.currentTrackPointId - 1, 0);
       } else {
         return;
       }
