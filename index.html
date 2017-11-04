@@ -180,7 +180,10 @@
       data.addRows(rows);
 
       var options = {
-        curveType: 'function'
+        curveType: 'function',
+        tooltip: {
+          trigger: 'none'
+        }
       };
 
       // Instantiate and draw our chart, passing in some options.
@@ -255,6 +258,8 @@
       if (!map.getBounds().contains(currentTrackPoint)) {
         map.panTo(currentTrackPoint);
       }
+
+      window.trackChart.setSelection([{row:window.currentTrackPointId, column: null }]);
     }
   </script>
   <script src="data/xc-thermails.js"></script>
