@@ -182,17 +182,14 @@
       var options = {
         curveType: 'function',
         legend: 'none',
-        chartArea: {'width': '100%', 'height': '100%', top: 10, bottom:10, right:10, left:50},
-        tooltip: {
-          trigger: 'none'
-        }
+        chartArea: {'width': '100%', 'height': '100%', top: 10, bottom:10, right:10, left:50}
       };
 
       // Instantiate and draw our chart, passing in some options.
       window.trackChart = new google.visualization.LineChart(document.getElementById('alt-chart'));
       window.trackChart.draw(data, options);
 
-      google.visualization.events.addListener(window.trackChart, 'onmouseover', onMouseOverChartHandler);
+      google.visualization.events.addListener(window.trackChart, 'select', onChartSelectionChangedHandler);
     }
 
   </script>
@@ -229,13 +226,15 @@
       }
 
       updateViewForCurrentTrackPointId(window.currentTrackPointId);
+      window.trackChart.setSelection([{row:window.currentTrackPointId, column: null }]);
     }
 
     window.addEventListener('keydown', handleKeyPress);
 
-    function onMouseOverChartHandler(e) {
-      console.debug("Chart onMouseOver fired: ", e);
-      window.currentTrackPointId = e.row;
+    function onChartSelectionChangedHandler() {
+      const selection = window.trackChart.getSelection();
+      console.debug("Chart 'selection' event fired: ", selection);
+      window.currentTrackPointId = selection[0].row;
       updateViewForCurrentTrackPointId(window.currentTrackPointId);
     }
 
@@ -260,8 +259,6 @@
       if (!map.getBounds().contains(currentTrackPoint)) {
         map.panTo(currentTrackPoint);
       }
-
-      window.trackChart.setSelection([{row:window.currentTrackPointId, column: null }]);
     }
   </script>
   <script src="data/xc-thermails.js"></script>
