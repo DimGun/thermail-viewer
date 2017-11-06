@@ -70,7 +70,7 @@
 
       if (previousThermails) {
         previousThermails.forEach((therm, i) => {
-          const opacity = 0.3 + 0.3 * i / (previousThermails.length - 1); // from 0.3 to 0.6
+          const opacity = 0.3 + 0.3 * i / Math.max(previousThermails.length - 1, 1); // from 0.3 to 0.6
           const thermView = renderThermail(map, therm, {
             zIndex: 100,
             fillColor: determinationColor(therm.r2),
