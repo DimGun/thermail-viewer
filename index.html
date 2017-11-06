@@ -238,7 +238,7 @@
 
   <script>
     // Track info tab
-    function updateInfoTabInternal(htmlSelector, trackPointId, trackPoint) {
+    function updateInfoTabInternal(htmlSelector, trackPointId, trackPoint, currentThermail, previousThermail) {
       const infoTab = document.querySelector(htmlSelector);
       if (!infoTab) return;
 
@@ -263,11 +263,49 @@
           </tr>
         </table>
       `
-      infoTab.innerHTML = trackPointInfoMarkup;
+
+      const currentThermailInfoMarkup = `<b>Current thermail</b>` + getThermailInfoMarkup(currentThermail);
+      const previousThermailInfoMarkup = `<b>Previous thermail</b>` + getThermailInfoMarkup(previousThermail);
+
+      infoTab.innerHTML = trackPointInfoMarkup + "<br>" +
+        currentThermailInfoMarkup + "<br>" +
+        previousThermailInfoMarkup;
     }
 
-    function updateInfoTab(trackPointId, trackPoint) {
-      updateInfoTabInternal('#track-info', trackPointId, trackPoint);
+    function getThermailInfoMarkup(thermail) {
+      const markup = `
+        <table style="width:100%">
+          <tr>
+            <td>track point id:</td>
+            <td style="text-align: right">${thermail && thermail.trackPointId || '(none)'}</td>
+          </tr>
+          <tr>
+            <td>lat:</td>
+            <td style="text-align: right">${thermail && thermail.center.lat || '(none)'}</td>
+          </tr>
+          <tr>
+            <td>lon:</td>
+            <td style="text-align: right">${thermail && thermail.center.lng || '(none)'}</td>
+          </tr>
+          <tr>
+            <td>diameter:</td>
+            <td style="text-align: right">${thermail && (thermail.radius * 2).toFixed(2) || '(none)'}</td>
+          </tr>
+          <tr>
+            <td>lift:</td>
+            <td style="text-align: right">${thermail && thermail.lift.toFixed(2) || '(none)'}</td>
+          </tr>
+          <tr>
+            <td>determ:</td>
+            <td style="text-align: right">${thermail && thermail.r2.toFixed(2) || '(none)'}</td>
+          </tr>
+        </table>
+      `
+      return markup;
+    }
+
+    function updateInfoTab(trackPointId, trackPoint, currentThermail, previousThermail) {
+      updateInfoTabInternal('#track-info', trackPointId, trackPoint, currentThermail, previousThermail);
     }
   </script>
 
@@ -322,7 +360,10 @@
       }
 
       // Update info tab
-      updateInfoTab(currentTrackPointId, currentTrackPoint);
+      const currentThermail = getThermailForTrackPointWithId(trackPointId, window.calculatedData.thermails);
+      const previousThermails = getPreviousThermailsForTrackPointWithId(trackPointId, window.calculatedData.thermails, 1);
+      const previousThermail = (previousThermails.length) ? previousThermails[0] : null;
+      updateInfoTab(currentTrackPointId, currentTrackPoint, currentThermail, previousThermail);
     }
   </script>
   <script src="data/xc-thermails.js"></script>
