@@ -16,9 +16,12 @@
 </head>
 
 <body>
-  <div id="container" style="width:100%; height:100%; display: flex; flex-direction: column; align-items: stretch">
-    <div id="map" style="flex-grow: 1"></div>
-    <div id="alt-chart" style="flex-basis:20%"></div>
+  <div id="container" style="width:100%; height:100%; display: flex; flex-direction: column">
+    <div id="row" style="flex: 8; display: flex">
+      <div id="map" style="flex: 1"></div>
+      <div id="track-info" style="flex-grow:0; flex-basis: 20%"></div>
+    </div>
+    <div id="alt-chart" style="flex:2"></div>
   </div>
 
   <script>
@@ -38,8 +41,7 @@
       console.log("Rendering flight track");
       renderTrack(window.map, window.trackData);
 
-      console.log("Render initial plane location");
-      window.planeMarker = renderPlane(map, null, window.trackData.points[window.currentTrackPointId]);
+      updateViewForCurrentTrackPointId(window.currentTrackPointId);
     }
   </script>
 
@@ -57,31 +59,58 @@
 
     function renderCalculatedThermailsForTrackPointId(trackPointId, map, thermails) {
       const countOfPriorThermailsToShow = 2;
-      const nearestThermailIdx = -1 + thermails.findIndex(function (therm) {
-        return therm.trackPointId > trackPointId
-      });
-      console.log("trackPointId = ", trackPointId);
-      console.log("NearestThermailIdx = ", nearestThermailIdx);
-      if (nearestThermailIdx < 0) {
-        return [];
+      const currentThermail = getThermailForTrackPointWithId(trackPointId, thermails);
+      const previousThermails = getPreviousThermailsForTrackPointWithId(trackPointId, thermails, countOfPriorThermailsToShow);
+
+      console.debug("Rendering thermails for track point id: ", trackPointId);
+      console.debug("-> Current thermail: ", currentThermail);
+      console.debug("-> Previous thermails: ", previousThermails);
+
+      let thermailViews = [];
+
+      if (previousThermails) {
+        previousThermails.forEach((therm, i) => {
+          const opacity = 0.3 + 0.3 * i / Math.max(previousThermails.length - 1, 1); // from 0.3 to 0.6
+          const thermView = renderThermail(map, therm, {
+            zIndex: 100,
+            fillColor: determinationColor(therm.r2),
+            fillOpacity: opacity,
+            strokeWeight: 0
+          });
+          thermailViews.push(thermView);
+        });
       }
 
-      const startIdx = Math.max(0, nearestThermailIdx - countOfPriorThermailsToShow);
-      const endIdx = nearestThermailIdx;
-
-      thermailViews = [];
-      for (let i = startIdx; i <= endIdx; i++) {
-        const therm = thermails[i];
-        const opacity = 0.1 + 0.4 * (i - startIdx) / (endIdx - startIdx); // from 0.1 to 0.5
-        const thermView = renderThermail(map, therm, {
-          zIndex: 100,
-          fillColor: determinationColor(therm.r2),
-          fillOpacity: opacity
+      if (currentThermail) {
+        const thermView = renderThermail(map, currentThermail, {
+          zIndex: 101,
+          fillColor: determinationColor(currentThermail.r2),
+          fillOpacity: 0.7,
+          strokeWeight: 2
         });
         thermailViews.push(thermView);
-      };
+      }
 
       return thermailViews;
+    }
+
+    function getThermailForTrackPointWithId(trackPointId, thermails) {
+      const thermailIdx = thermails.findIndex(function (therm) {
+        return therm.trackPointId == trackPointId
+      });
+      return (thermailIdx >= 0) ? thermails[thermailIdx] : null;
+    }
+
+    function getPreviousThermailsForTrackPointWithId(trackPointId, thermails, count) {
+      const nearestThermailIdx = thermails.findIndex(function (therm) {
+        return therm.trackPointId >= trackPointId
+      });
+
+      const endIdx = nearestThermailIdx - 1; // Take first thermail for pointId less than current
+      if (endIdx < 0) return [];
+      const startIdx = Math.max(0, endIdx - count + 1) // Take $count previous thermails
+
+      return thermails.slice(startIdx, endIdx + 1);
     }
 
     function renderAllCalculatedThermails(map, thermails) {
@@ -208,6 +237,82 @@
   </script>
 
   <script>
+    // Track info tab
+    function updateInfoTabInternal(htmlSelector, trackPointId, trackPoint, currentThermail, previousThermail) {
+      const infoTab = document.querySelector(htmlSelector);
+      if (!infoTab) return;
+
+      const trackPointInfoMarkup = `
+        <b>Current point</b>
+        <table style="width:100%">
+          <tr>
+            <td>id:</td>
+            <td style="text-align: right">${trackPointId}</td>
+          </tr>
+          <tr>
+            <td>lat:</td>
+            <td style="text-align: right">${trackPoint.lat}</td>
+          </tr>
+          <tr>
+            <td>lon:</td>
+            <td style="text-align: right">${trackPoint.lng}</td>
+          </tr>
+          <tr>
+            <td>alt:</td>
+            <td style="text-align: right">${trackPoint.alt}</td>
+          </tr>
+        </table>
+      `
+
+      const currentThermailInfoMarkup = `<b>Current thermail</b>` + getThermailInfoMarkup(currentThermail);
+      const previousThermailInfoMarkup = `<b>Previous thermail</b>` + getThermailInfoMarkup(previousThermail);
+
+      infoTab.innerHTML = trackPointInfoMarkup + "<br>" +
+        currentThermailInfoMarkup + "<br>" +
+        previousThermailInfoMarkup;
+    }
+
+    function getThermailInfoMarkup(thermail) {
+      const markup = `
+        <table style="width:100%">
+          <tr>
+            <td>track point id:</td>
+            <td style="text-align: right">${thermail && thermail.trackPointId || '(none)'}</td>
+          </tr>
+          <tr>
+            <td>lat:</td>
+            <td style="text-align: right">${thermail && thermail.center.lat || '(none)'}</td>
+          </tr>
+          <tr>
+            <td>lon:</td>
+            <td style="text-align: right">${thermail && thermail.center.lng || '(none)'}</td>
+          </tr>
+          <tr>
+            <td>diameter:</td>
+            <td style="text-align: right">${thermail && (thermail.radius * 2).toFixed(2) || '(none)'}</td>
+          </tr>
+          <tr>
+            <td>lift:</td>
+            <td style="text-align: right">${thermail && thermail.lift.toFixed(2) || '(none)'}</td>
+          </tr>
+          <tr>
+            <td>determ:</td>
+            <td style="text-align: right; color:${thermail && determinationColor(thermail.r2) || 'black'};
+              background-color: gray">
+              ${thermail && thermail.r2.toFixed(2) || '(none)'}
+            </td>
+          </tr>
+        </table>
+      `
+      return markup;
+    }
+
+    function updateInfoTab(trackPointId, trackPoint, currentThermail, previousThermail) {
+      updateInfoTabInternal('#track-info', trackPointId, trackPoint, currentThermail, previousThermail);
+    }
+  </script>
+
+  <script>
     // User interaction handling
     function handleKeyPress(e) {
       console.log(`Key ${e.code} pressed`);
@@ -222,7 +327,7 @@
       }
 
       updateViewForCurrentTrackPointId(window.currentTrackPointId);
-      window.trackChart.setSelection([{row:window.currentTrackPointId, column: null }]);
+      window.trackChart.setSelection([{ row: window.currentTrackPointId, column: null }]);
     }
 
     window.addEventListener('keydown', handleKeyPress);
@@ -252,9 +357,16 @@
       // Remove previously rendered calculated thermails
       thermailsViewsToDestroy.forEach(destroyRenderedThermail);
 
-      if (!map.getBounds().contains(currentTrackPoint)) {
+      const mapBounds = map.getBounds();
+      if (mapBounds && !mapBounds.contains(currentTrackPoint)) {
         map.panTo(currentTrackPoint);
       }
+
+      // Update info tab
+      const currentThermail = getThermailForTrackPointWithId(trackPointId, window.calculatedData.thermails);
+      const previousThermails = getPreviousThermailsForTrackPointWithId(trackPointId, window.calculatedData.thermails, 1);
+      const previousThermail = (previousThermails.length) ? previousThermails[0] : null;
+      updateInfoTab(currentTrackPointId, currentTrackPoint, currentThermail, previousThermail);
     }
   </script>
   <script src="data/xc-thermails.js"></script>
