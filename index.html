@@ -297,7 +297,10 @@
           </tr>
           <tr>
             <td>determ:</td>
-            <td style="text-align: right">${thermail && thermail.r2.toFixed(2) || '(none)'}</td>
+            <td style="text-align: right; color:${thermail && determinationColor(thermail.r2) || 'black'};
+              background-color: gray">
+              ${thermail && thermail.r2.toFixed(2) || '(none)'}
+            </td>
           </tr>
         </table>
       `
