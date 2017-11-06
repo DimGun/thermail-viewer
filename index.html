@@ -212,23 +212,36 @@
 
   <script>
     // Track info tab
-    function updateInfoTabInternal(htmlSelector, trackPoint) {
+    function updateInfoTabInternal(htmlSelector, trackPointId, trackPoint) {
       const infoTab = document.querySelector(htmlSelector);
       if (!infoTab) return;
 
       const trackPointInfoMarkup = `
-        <h3>Current point</h3>
-        <span>
-          lat: ${trackPoint.lat}
-          lon: ${trackPoint.lng}
-          alt: ${trackPoint.alt}
-        </span>
+        <b>Current point</b>
+        <table style="width:100%">
+          <tr>
+            <td>id:</td>
+            <td style="text-align: right">${trackPointId}</td>
+          </tr>
+          <tr>
+            <td>lat:</td>
+            <td style="text-align: right">${trackPoint.lat}</td>
+          </tr>
+          <tr>
+            <td>lon:</td>
+            <td style="text-align: right">${trackPoint.lng}</td>
+          </tr>
+          <tr>
+            <td>alt:</td>
+            <td style="text-align: right">${trackPoint.alt}</td>
+          </tr>
+        </table>
       `
       infoTab.innerHTML = trackPointInfoMarkup;
     }
 
-    function updateInfoTab(trackPoint) {
-      updateInfoTabInternal('#track-info', trackPoint);
+    function updateInfoTab(trackPointId, trackPoint) {
+      updateInfoTabInternal('#track-info', trackPointId, trackPoint);
     }
   </script>
 
@@ -282,7 +295,7 @@
       }
 
       // Update info tab
-      updateInfoTab(currentTrackPoint);
+      updateInfoTab(currentTrackPointId, currentTrackPoint);
     }
   </script>
   <script src="data/xc-thermails.js"></script>
