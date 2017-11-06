@@ -41,8 +41,7 @@
       console.log("Rendering flight track");
       renderTrack(window.map, window.trackData);
 
-      console.log("Render initial plane location");
-      window.planeMarker = renderPlane(map, null, window.trackData.points[window.currentTrackPointId]);
+      updateViewForCurrentTrackPointId(window.currentTrackPointId);
     }
   </script>
 
@@ -290,7 +289,8 @@
       // Remove previously rendered calculated thermails
       thermailsViewsToDestroy.forEach(destroyRenderedThermail);
 
-      if (!map.getBounds().contains(currentTrackPoint)) {
+      const mapBounds = map.getBounds();
+      if (mapBounds && !mapBounds.contains(currentTrackPoint)) {
         map.panTo(currentTrackPoint);
       }
 
