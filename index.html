@@ -16,9 +16,12 @@
 </head>
 
 <body>
-  <div id="container" style="width:100%; height:100%; display: flex; flex-direction: column; align-items: stretch">
-    <div id="map" style="flex-grow: 1"></div>
-    <div id="alt-chart" style="flex-basis:20%"></div>
+  <div id="container" style="width:100%; height:100%; display: flex; flex-direction: column">
+    <div id="row" style="flex: 8; display: flex">
+      <div id="map" style="flex: 1"></div>
+      <div id="track-info" style="flex-grow:0; flex-basis: 20%"></div>
+    </div>
+    <div id="alt-chart" style="flex:2"></div>
   </div>
 
   <script>
@@ -208,6 +211,28 @@
   </script>
 
   <script>
+    // Track info tab
+    function updateInfoTabInternal(htmlSelector, trackPoint) {
+      const infoTab = document.querySelector(htmlSelector);
+      if (!infoTab) return;
+
+      const trackPointInfoMarkup = `
+        <h3>Current point</h3>
+        <span>
+          lat: ${trackPoint.lat}
+          lon: ${trackPoint.lng}
+          alt: ${trackPoint.alt}
+        </span>
+      `
+      infoTab.innerHTML = trackPointInfoMarkup;
+    }
+
+    function updateInfoTab(trackPoint) {
+      updateInfoTabInternal('#track-info', trackPoint);
+    }
+  </script>
+
+  <script>
     // User interaction handling
     function handleKeyPress(e) {
       console.log(`Key ${e.code} pressed`);
@@ -222,7 +247,7 @@
       }
 
       updateViewForCurrentTrackPointId(window.currentTrackPointId);
-      window.trackChart.setSelection([{row:window.currentTrackPointId, column: null }]);
+      window.trackChart.setSelection([{ row: window.currentTrackPointId, column: null }]);
     }
 
     window.addEventListener('keydown', handleKeyPress);
@@ -255,6 +280,9 @@
       if (!map.getBounds().contains(currentTrackPoint)) {
         map.panTo(currentTrackPoint);
       }
+
+      // Update info tab
+      updateInfoTab(currentTrackPoint);
     }
   </script>
   <script src="data/xc-thermails.js"></script>
