@@ -59,31 +59,58 @@
 
     function renderCalculatedThermailsForTrackPointId(trackPointId, map, thermails) {
       const countOfPriorThermailsToShow = 2;
-      const nearestThermailIdx = -1 + thermails.findIndex(function (therm) {
-        return therm.trackPointId > trackPointId
-      });
-      console.log("trackPointId = ", trackPointId);
-      console.log("NearestThermailIdx = ", nearestThermailIdx);
-      if (nearestThermailIdx < 0) {
-        return [];
+      const currentThermail = getThermailForTrackPointWithId(trackPointId, thermails);
+      const previousThermails = getPreviousThermailsForTrackPointWithId(trackPointId, thermails, countOfPriorThermailsToShow);
+
+      console.debug("Rendering thermails for track point id: ", trackPointId);
+      console.debug("-> Current thermail: ", currentThermail);
+      console.debug("-> Previous thermails: ", previousThermails);
+
+      let thermailViews = [];
+
+      if (previousThermails) {
+        previousThermails.forEach((therm, i) => {
+          const opacity = 0.3 + 0.3 * i / (previousThermails.length - 1); // from 0.3 to 0.6
+          const thermView = renderThermail(map, therm, {
+            zIndex: 100,
+            fillColor: determinationColor(therm.r2),
+            fillOpacity: opacity,
+            strokeWeight: 0
+          });
+          thermailViews.push(thermView);
+        });
       }
 
-      const startIdx = Math.max(0, nearestThermailIdx - countOfPriorThermailsToShow);
-      const endIdx = nearestThermailIdx;
-
-      thermailViews = [];
-      for (let i = startIdx; i <= endIdx; i++) {
-        const therm = thermails[i];
-        const opacity = 0.1 + 0.4 * (i - startIdx) / (endIdx - startIdx); // from 0.1 to 0.5
-        const thermView = renderThermail(map, therm, {
-          zIndex: 100,
-          fillColor: determinationColor(therm.r2),
-          fillOpacity: opacity
+      if (currentThermail) {
+        const thermView = renderThermail(map, currentThermail, {
+          zIndex: 101,
+          fillColor: determinationColor(currentThermail.r2),
+          fillOpacity: 0.7,
+          strokeWeight: 2
         });
         thermailViews.push(thermView);
-      };
+      }
 
       return thermailViews;
+    }
+
+    function getThermailForTrackPointWithId(trackPointId, thermails) {
+      const thermailIdx = thermails.findIndex(function (therm) {
+        return therm.trackPointId == trackPointId
+      });
+      return (thermailIdx >= 0) ? thermails[thermailIdx] : null;
+    }
+
+    function getPreviousThermailsForTrackPointWithId(trackPointId, thermails, count) {
+      const nearestThermailIdx = thermails.findIndex(function (therm) {
+        return therm.trackPointId >= trackPointId
+      });
+
+      const endIdx = nearestThermailIdx - 1; // Take first thermail for pointId less than current
+      if (endIdx < 0) return [];
+      const startIdx = Math.max(0, endIdx - count + 1) // Take $count previous thermails
+
+      return thermails.slice(startIdx, endIdx + 1);
     }
 
     function renderAllCalculatedThermails(map, thermails) {
